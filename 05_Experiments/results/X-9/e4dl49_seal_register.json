@@ -1,0 +1,605 @@
+{
+ "note": "hashes only; no sealed file was read",
+ "seal_register": {
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_concentrated_labelflip_s0.fold10.sealed.json": {
+   "sha256": "6cf4022ba7305827aa0144d1cccfbbc2f065f9cb8f19720836d390a0fc5adce0",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_concentrated_labelflip_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_concentrated_labelflip_s1.fold10.sealed.json": {
+   "sha256": "c85d5e1242414d3073e11ba27a01ba9bdb23f895da30f6545510a25a9ae1b8be",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_concentrated_labelflip_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_concentrated_labelflip_s2.fold10.sealed.json": {
+   "sha256": "9ec97cd1acbc7b4cc126c0db7a53cda115edfd714b97aac12f370551910622aa",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_concentrated_labelflip_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_concentrated_labelflip_s3.fold10.sealed.json": {
+   "sha256": "23226334cfdca49707123d2d096c19f9e900b6203fcf50e0a2ba0e2c89884f28",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_concentrated_labelflip_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_concentrated_labelflip_s4.fold10.sealed.json": {
+   "sha256": "c15268e58d463c2e78bee741012708e5bf3047530f073f79851a95a4307b455b",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_concentrated_labelflip_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_concentrated_labelflip_s5.fold10.sealed.json": {
+   "sha256": "05d08c0b7b44a24f19a8e549f666a02d7e6516064f87d6c1d7378de1d0292686",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_concentrated_labelflip_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_concentrated_labelflip_s6.fold10.sealed.json": {
+   "sha256": "629830b8f24e279a3068f5e590bf531c5347fec3a1a13c7a789c0f0a77999c22",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_concentrated_labelflip_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_concentrated_labelflip_s7.fold10.sealed.json": {
+   "sha256": "c1d16e69dadaa8fe8f5b225414070d91576569953925dd1060be9a8c0d4dd76c",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_concentrated_labelflip_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_concentrated_labelflip_s8.fold10.sealed.json": {
+   "sha256": "5039910721c6e65de7ee47dcebd6b3ecc8f4a681cf7dcd78c1fb21fd4ffcd3e7",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_concentrated_labelflip_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_concentrated_labelflip_s9.fold10.sealed.json": {
+   "sha256": "b31daa968f547640ee5a8259e63b55ffc306ac32d4dcd103247cbed52249e449",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_concentrated_labelflip_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_labelflip_s0.fold10.sealed.json": {
+   "sha256": "e0d064051668f785dc5f9b7925dee167f807b82cba0307d2446fd0ecdcdd3085",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_labelflip_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_labelflip_s1.fold10.sealed.json": {
+   "sha256": "ebedb9f3b76ade9d4b0a7e1c1761a668cf5044a8e0bb65a33dfcdeb523978ca2",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_labelflip_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_labelflip_s2.fold10.sealed.json": {
+   "sha256": "02daacb824ed7c6cda1dcd8071efb08536b7188b0480b2c5c416d9d3531c664b",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_labelflip_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_labelflip_s3.fold10.sealed.json": {
+   "sha256": "fbf200a0467196113851d19fd38d77e294da2b3e29f3e9eb9526497324b34e72",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_labelflip_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_labelflip_s4.fold10.sealed.json": {
+   "sha256": "c411384cfb7e9a2ec9226dc97c1d2bfe048d92a06e1a3d24cdd615a5cdf250bb",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_labelflip_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_labelflip_s5.fold10.sealed.json": {
+   "sha256": "9d0be7e1df9f65327d28c6f7a75607704b83e32caae26eb13dbf74f03184c4e7",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_labelflip_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_labelflip_s6.fold10.sealed.json": {
+   "sha256": "b2a4072def5917f4feb1229bd82bdf11e34bdf83ee6d445a7fdcaa9f56d9d51b",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_labelflip_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_labelflip_s7.fold10.sealed.json": {
+   "sha256": "f21d9c83e7bf06470834744335a1a1e52fbc8ffc47237012a10b8a7d1b148cf6",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_labelflip_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_labelflip_s8.fold10.sealed.json": {
+   "sha256": "06a5dc101799896f9886f5b9d07cbb48e017d09e0425eda408f581d0b596d8b0",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_labelflip_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pfr_labelflip_s9.fold10.sealed.json": {
+   "sha256": "5dd493844256ac853fce8356a5f6273fb20912f795b04d1c1749e25ce28ba503",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pfr_labelflip_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_concentrated_labelflip_s0.fold10.sealed.json": {
+   "sha256": "c88ab8ba0f9ea40644c5c170f8d7dc6b43ddf70748f3c3156e62862eeb4d0ca5",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_concentrated_labelflip_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_concentrated_labelflip_s1.fold10.sealed.json": {
+   "sha256": "dcf4e6c3b5d0851fd8c4078f7654ba93d5b9a38218d435026ae107f2bc2011bb",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_concentrated_labelflip_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_concentrated_labelflip_s2.fold10.sealed.json": {
+   "sha256": "9fc5d6b82fca527349a2d60b7a2566bab662d28b3cc64987e67d03da6a5be770",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_concentrated_labelflip_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_concentrated_labelflip_s3.fold10.sealed.json": {
+   "sha256": "2277d8130df8d5da2f86b94d0ec8184d55c5b5175e0773299b0fe1d2a8706df0",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_concentrated_labelflip_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_concentrated_labelflip_s4.fold10.sealed.json": {
+   "sha256": "97373707ec294f7292217e5edcabf427e1c1d0f2cdb8b7a77e23c50e52c7b0c4",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_concentrated_labelflip_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_concentrated_labelflip_s5.fold10.sealed.json": {
+   "sha256": "8b90781c317228430f8fc129f469bf46f15114cf12d728d0c2e4fcd0ed7008a6",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_concentrated_labelflip_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_concentrated_labelflip_s6.fold10.sealed.json": {
+   "sha256": "0c61ca6606bb05620f86c85e9cc67982ccc4d120af9e097133d6ed1919df882d",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_concentrated_labelflip_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_concentrated_labelflip_s7.fold10.sealed.json": {
+   "sha256": "8d10f912afb6fd4b26595ed3a860d870ff9056ae1460dc972ae01e01aea8b82c",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_concentrated_labelflip_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_concentrated_labelflip_s8.fold10.sealed.json": {
+   "sha256": "77f6fdc37334418194358419d4a33aee615d25041823c776703acf733b86dd3a",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_concentrated_labelflip_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_concentrated_labelflip_s9.fold10.sealed.json": {
+   "sha256": "f2e5ea330525b966620f0ecc89a450756c329378aa265e0754cef7ac4b22ee8e",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_concentrated_labelflip_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_labelflip_s0.fold10.sealed.json": {
+   "sha256": "bb0751158a089bcb683cba513b9c43c58b5c8208b32b0886a46d781b57e781d7",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_labelflip_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_labelflip_s1.fold10.sealed.json": {
+   "sha256": "0e69be3e18f2d0ee6bd31d3c48a7b2b26f8d2e1384dccbe6f8c662a575bffa3b",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_labelflip_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_labelflip_s2.fold10.sealed.json": {
+   "sha256": "24fbfafaa6756b3c05d261a4463401b2ec2b43b64281ba67de5c2ce5299b5445",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_labelflip_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_labelflip_s3.fold10.sealed.json": {
+   "sha256": "610c2290d15a1c036b947ba1982db0b3d84e4b8a02b84cea0cac8385664d41a9",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_labelflip_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_labelflip_s4.fold10.sealed.json": {
+   "sha256": "4f433677ac5c118f028eaa4bee5903421ae80fb6f25839eedf049e7ce840f5cc",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_labelflip_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_labelflip_s5.fold10.sealed.json": {
+   "sha256": "311e8c45b39009d8d517add8420268585aac9aed7cefe104c60eea91536fd447",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_labelflip_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_labelflip_s6.fold10.sealed.json": {
+   "sha256": "3059cf81e6ba841bb631d887bbee842f37724b1baf71f5e61e07cf6b048df882",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_labelflip_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_labelflip_s7.fold10.sealed.json": {
+   "sha256": "5c4eaad016a637f26879186bcaf78ba0eaa66281e53d1906892cf96646cda7df",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_labelflip_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_labelflip_s8.fold10.sealed.json": {
+   "sha256": "3d7a06161dc02df4b03a9eb6f82b1c7f4e93ea03287b57aeaad4ec92db20e773",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_labelflip_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ppe_labelflip_s9.fold10.sealed.json": {
+   "sha256": "454989fd808e48e51a91ef72a63604e5248cd59780cf482443375369e5adda72",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ppe_labelflip_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_concentrated_labelflip_s0.fold10.sealed.json": {
+   "sha256": "20d213ae6cc95449c85e1d9274de28598bb069d521865b6472162e97ac3343f2",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_concentrated_labelflip_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_concentrated_labelflip_s1.fold10.sealed.json": {
+   "sha256": "ac219c2e6b79fcfc41690bbfee910b1b6b1b92d2e6dbf2795edaaf65398edf1a",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_concentrated_labelflip_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_concentrated_labelflip_s2.fold10.sealed.json": {
+   "sha256": "aee20f9a7ada76f0eddb12753559d43ca5d680d046b364014cc2fae1874688b8",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_concentrated_labelflip_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_concentrated_labelflip_s3.fold10.sealed.json": {
+   "sha256": "098ff1b5d8b877ae970c39d6b312c3406d3b5652d1a3873a190862770acbc6bf",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_concentrated_labelflip_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_concentrated_labelflip_s4.fold10.sealed.json": {
+   "sha256": "bed879ce40e0f49a23236b5914f7a873dcdfd8b244a0c70e8f4e07258dcf77ca",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_concentrated_labelflip_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_concentrated_labelflip_s5.fold10.sealed.json": {
+   "sha256": "7a0596bbbaae8dc0d73a1cc60c2aeddd22253b019e37efe6dacfbf18f0c4ecb7",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_concentrated_labelflip_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_concentrated_labelflip_s6.fold10.sealed.json": {
+   "sha256": "eacde0a54bdc592d3a7f4065cea2f59bb2276ce992fa5d748a78044c80e539b6",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_concentrated_labelflip_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_concentrated_labelflip_s7.fold10.sealed.json": {
+   "sha256": "887d0f5841ca277ed642221682d3902b4def7cdf8241dadb549aed0deba96b10",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_concentrated_labelflip_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_concentrated_labelflip_s8.fold10.sealed.json": {
+   "sha256": "97f63a3540e380e6b9f9a5888ea2d283e637cf23115acb3e691e739d26f52d2c",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_concentrated_labelflip_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_concentrated_labelflip_s9.fold10.sealed.json": {
+   "sha256": "0e9c327b0a982dae41b062c421d7c7a493ef19551e85e90950bad0feffb2ffdf",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_concentrated_labelflip_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_labelflip_s0.fold10.sealed.json": {
+   "sha256": "c7eea09873c86ca99d54d27c4560d68ab4833dee3c788db7a81e131a21b12113",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_labelflip_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_labelflip_s1.fold10.sealed.json": {
+   "sha256": "b7b8cdae409abe55102e6122198605b683ae9ab98d5e6ad30f6eaca889463774",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_labelflip_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_labelflip_s2.fold10.sealed.json": {
+   "sha256": "4f11082456c6b00a4f32be55cef458dd6929940eb3cc43ebe0b2c995fbb5189a",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_labelflip_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_labelflip_s3.fold10.sealed.json": {
+   "sha256": "afc8a1b5cc0023870d347bf08d1f0f99dcbdf90aeaea692e1e3af28b31b5b96a",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_labelflip_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_labelflip_s4.fold10.sealed.json": {
+   "sha256": "b4f5a33e1c6a42945f3da8eb109bcde80ea4d976b900ba2627b67f2b9929de91",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_labelflip_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_labelflip_s5.fold10.sealed.json": {
+   "sha256": "192db04609921c25603797a5355687f4ee5cbf92dd0dc3ce0e0f2eb925af6a08",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_labelflip_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_labelflip_s6.fold10.sealed.json": {
+   "sha256": "2b85299f3d30bf7c3f2537f591cb59bec2b67ad56eb7eaa5a738f7d8557474bb",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_labelflip_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_labelflip_s7.fold10.sealed.json": {
+   "sha256": "68deaf7290210edf0786e6efd703c37e6a83ed1799e8d85765d4b5af502ae331",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_labelflip_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_labelflip_s8.fold10.sealed.json": {
+   "sha256": "f319f8a0d9b83b44372ba4fb001a886626059d0a10ad37085aab14cf2ff65fcb",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_labelflip_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_pta_labelflip_s9.fold10.sealed.json": {
+   "sha256": "6bdc096964b2fa43045876c259307b897878c707b49ca769388ddeb90432499d",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_pta_labelflip_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_concentrated_labelflip_s0.fold10.sealed.json": {
+   "sha256": "fecb057c3fc81a02ee65bfcaac3f28421640d5a3d99981d5ca28117e2ac4174a",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_concentrated_labelflip_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_concentrated_labelflip_s1.fold10.sealed.json": {
+   "sha256": "7ca8e98504365c334b63c680cf4b7c918ab90f97e785da3db48e35ef2ea8b408",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_concentrated_labelflip_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_concentrated_labelflip_s2.fold10.sealed.json": {
+   "sha256": "0c4b210c31d7cab5c617777d2ed1c65e95cd7b679b9a8a5a411ac2660b07c885",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_concentrated_labelflip_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_concentrated_labelflip_s3.fold10.sealed.json": {
+   "sha256": "aadda2f625881953abeb1a63f9f0703c1520a3f9a7ee600f5389a987b9aa2eb9",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_concentrated_labelflip_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_concentrated_labelflip_s4.fold10.sealed.json": {
+   "sha256": "a48b4ba799b759c1d9d3e4c5c330acffe7c791b478d2f1f8968ebec8a057f25a",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_concentrated_labelflip_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_concentrated_labelflip_s5.fold10.sealed.json": {
+   "sha256": "d2aa8d01c2c0c4c9a6b05e4129f59c3dc9e249f36405f4074ba520214fe72ed9",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_concentrated_labelflip_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_concentrated_labelflip_s6.fold10.sealed.json": {
+   "sha256": "fa183f2fa5cdd0424f6989b78571ede1c5b5006ad3063b065f3f0fa30ac4ce22",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_concentrated_labelflip_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_concentrated_labelflip_s7.fold10.sealed.json": {
+   "sha256": "3d3487f0c48f73ca03eddcb33f5a9041ec0e9c7ddedc7c8cb8f8252876b15f8d",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_concentrated_labelflip_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_concentrated_labelflip_s8.fold10.sealed.json": {
+   "sha256": "65f9892e750d1d657999b46d00f3dbec146366b6c60993353fa4943b5d0f73b8",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_concentrated_labelflip_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_concentrated_labelflip_s9.fold10.sealed.json": {
+   "sha256": "d9530b7db56a4a8c6970add306b65a5df6d7c9b31c94f3441bee279c20a13a9d",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_concentrated_labelflip_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_labelflip_s0.fold10.sealed.json": {
+   "sha256": "0d40536d7af6a4658ed90179cc82c1639f8042cc95990fa68040cf15f7ab218e",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_labelflip_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_labelflip_s1.fold10.sealed.json": {
+   "sha256": "178a6bd682417dfd5051a3158b27421a24e2e20abf678a3618935441d47a39bf",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_labelflip_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_labelflip_s2.fold10.sealed.json": {
+   "sha256": "053462967751bb5b7efca52ff65154e17ef2365b7d5570f5933327301d8a476a",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_labelflip_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_labelflip_s3.fold10.sealed.json": {
+   "sha256": "2394692f864002fbef2d91f11780dbfdfdcca4f7459370dcd766ce6266b3d777",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_labelflip_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_labelflip_s4.fold10.sealed.json": {
+   "sha256": "c45c341d8afca0686e3098138d6ea4841d6146f88439ddc72a734897eaebbabd",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_labelflip_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_labelflip_s5.fold10.sealed.json": {
+   "sha256": "edd712352cc25a0ffe3d303ac462e7a4619c4d1d2a26f3289c439ecf2c6aff5b",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_labelflip_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_labelflip_s6.fold10.sealed.json": {
+   "sha256": "cbae5ef73276277496bdc9c480e7fbe1c5183020c823d1a2c1460ba57183ef94",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_labelflip_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_labelflip_s7.fold10.sealed.json": {
+   "sha256": "d6da313da8831ad1a5ed0beb3cb11c3ddb6684796d3ec7d8fb5c5b36caf2fe60",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_labelflip_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_labelflip_s8.fold10.sealed.json": {
+   "sha256": "ea0f054ee961895379381be31bb41aebc48e9e6973f7f4d87c1219d93fd52943",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_labelflip_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptg_labelflip_s9.fold10.sealed.json": {
+   "sha256": "29411b2a12dc57120c488a1fd2e426bfffc87cf280a88bd9106a61549d4a41f4",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptg_labelflip_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_concentrated_labelflip_s0.fold10.sealed.json": {
+   "sha256": "adb40499bea43c7ad0317e152a0ab3cc444fd43886764831534ac24fddc16f93",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_concentrated_labelflip_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_concentrated_labelflip_s1.fold10.sealed.json": {
+   "sha256": "c070283378bcd582b3a61dc51359e7451bb9d438dc7b153a27365454cc4d3a70",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_concentrated_labelflip_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_concentrated_labelflip_s2.fold10.sealed.json": {
+   "sha256": "92b0cbb100ef87b2ebd19fdfd64abe1d1dd3638a6efd1625a7ab6fadd09ec939",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_concentrated_labelflip_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_concentrated_labelflip_s3.fold10.sealed.json": {
+   "sha256": "45ed97a31d6dee10f85ab6898cf4de523efc839d2288bdc224c11b4ae6ecfc43",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_concentrated_labelflip_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_concentrated_labelflip_s4.fold10.sealed.json": {
+   "sha256": "1c01054705048db80440b2803a65d2b985801b32b56f27705b9b3bef9ab58fe9",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_concentrated_labelflip_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_concentrated_labelflip_s5.fold10.sealed.json": {
+   "sha256": "797e26018a021e4a790ca55c1b404b4df3379d02cdcb087d44e62bd57c6e2908",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_concentrated_labelflip_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_concentrated_labelflip_s6.fold10.sealed.json": {
+   "sha256": "a5ca402165f8a3ac0f40cb7b30d054a50ff3e345cba52bca376accebe7f0673b",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_concentrated_labelflip_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_concentrated_labelflip_s7.fold10.sealed.json": {
+   "sha256": "af0ac82811ff1b21b521846157b5549a8c7d741316a769d713d4238d9be1f7d1",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_concentrated_labelflip_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_concentrated_labelflip_s8.fold10.sealed.json": {
+   "sha256": "b9f2b5d3db5aa90917d0091b28bb186377e84368d4a06d5ba77799e40378c027",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_concentrated_labelflip_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_concentrated_labelflip_s9.fold10.sealed.json": {
+   "sha256": "34f39ac693b01c5d486b8dc04021964681493c2a1abc05eebe39f8e1851e5aab",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_concentrated_labelflip_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_labelflip_s0.fold10.sealed.json": {
+   "sha256": "ef074564d88296f09a8f4b0cd87f3f14b1a8fa0e04390b40792f5466a62c3c87",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_labelflip_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_labelflip_s1.fold10.sealed.json": {
+   "sha256": "57cc78464849d3b1ea21f40fe9051a5d6bb4d44e811fe2ade9feaffc076a50dd",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_labelflip_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_labelflip_s2.fold10.sealed.json": {
+   "sha256": "4310a9b0739a14c436616aa198be1c466bd07ed9c2295c12a447146a4edadd58",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_labelflip_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_labelflip_s3.fold10.sealed.json": {
+   "sha256": "27dfd3768e16545e381b0699a48c40569d2a68a12d982cc34f1c97b222666a80",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_labelflip_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_labelflip_s4.fold10.sealed.json": {
+   "sha256": "4d359cca87355c620a010a78bee60bc0842240fdfd22164bd70d5625f335782d",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_labelflip_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_labelflip_s5.fold10.sealed.json": {
+   "sha256": "f60b10378639954bc47569fa72efcc659eea8ab0030acd509dcc90f3554ac50a",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_labelflip_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_labelflip_s6.fold10.sealed.json": {
+   "sha256": "15ac8e4cd9b1acde2bc41438739ea235b734908d3ab04c734de4077d0ede7329",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_labelflip_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_labelflip_s7.fold10.sealed.json": {
+   "sha256": "010f3afcb184d3327b761b95922c666f2e3f8f1b66ccd20cde4535a4afb7a07c",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_labelflip_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_labelflip_s8.fold10.sealed.json": {
+   "sha256": "7a9cc810e1fd20d2c143f59a0abf62254d8fd56c565bd7e4230b2d0350988c00",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_labelflip_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e4-labelflip/E4_ptgc_labelflip_s9.fold10.sealed.json": {
+   "sha256": "2363aa86a47690b67b94fca979a4f48becaa5be49add5422e908e433e88b57f3",
+   "folder": "JOB_20261119_X-9_e4-labelflip",
+   "file": "E4_ptgc_labelflip_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  }
+ }
+}

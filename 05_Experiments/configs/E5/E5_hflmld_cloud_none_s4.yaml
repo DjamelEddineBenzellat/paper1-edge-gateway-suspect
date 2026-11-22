@@ -1,0 +1,49 @@
+# E5 config, written by make_e5_configs.py. Do not edit by hand.
+experiment: E5 reference (no tampering)
+run_id: E5_hflmld_cloud_none_s4
+configuration: P-TA
+mode: pta
+seed: 4
+settings:
+  lr: 0.01
+  c_ex: 2.0
+  eps0: 8.0
+  rounds: 100
+  clip_C: 15.313606071472167
+  quantize: true
+  tau: 17.40413335800171
+  cloud_rule: hflmld
+  cloud_eta: 1.0
+  partition: partition_E5.yaml
+canaries: true
+fold10: sealed (DL-39)
+base_config: ../G0a.yaml
+rules:
+- DL-34
+- DL-36
+- DL-37
+- DL-38
+- DL-39
+- DL-06
+- DL-14
+- DL-23
+- DL-41
+- DL-42
+- DL-43
+- DL-44
+- DL-45
+code_commit: 209d00e1614f17884875952bfb91495cfb7606dd
+versions:
+  cryptography: 50.0.2
+  flwr: 1.43.0
+  numpy: 2.5.4
+  opacus: 1.6.0
+  scikit-learn: 1.9.1
+  scipy: 1.18.1
+  torch: 2.15.0+cpu
+sources_sha256:
+  05_Experiments/results/G0-14/JOB_20261115_G0-14_grid-dl36/selection_dl36.json: 4dd9312a89837f3ffde8e7eaabf9e94276a7257134baee8133150279825c89a3
+  05_Experiments/results/M2-04/JOB_20261116_M2-04_baseline-grid/selection_baselines.json: e931f9d1c9b05b69d145271b77eb0c97d572b1da0ad27be1225d326a26268f8c
+  E1_pta_s4.yaml: 3f426a44051d56370075df19cd9ca4ea8577cb06ff63c8c6a2c8fde5bd884f71
+  selection_dl42.json: 27358fd3dad973df1339d214ea8085bd3a76bd5b567a350fe021910c10a72af8
+detector: hflmld_cloud

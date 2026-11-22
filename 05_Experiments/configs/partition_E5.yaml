@@ -1,0 +1,10 @@
+# Partition for E5 mixed gateways (plan task M6-02; written early with DL-30).
+# Sources: PR:65 (alpha 0.1 for 3 of the 7 gateways), DL-29(c)-(e), DL-30.
+n_gateways: 7               # PR:64
+devices_per_gateway: 30     # PR:64
+alpha_default: 0.5          # PR:65
+alpha_overrides: {0: 0.1, 1: 0.1, 2: 0.1}  # PR:65, DL-29(c): gateways 0-2
+min_records_per_device: 10  # DL-29(d); repaired by DL-30 if no draw meets it
+max_redraws: 1000           # DL-29(d)
+batch_size: 16              # PR:57; DL-26
+rounds: 100                 # PR:55

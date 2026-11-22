@@ -1,0 +1,2768 @@
+{
+ "note": "E5: detection and false alarms from the run files; fold 10 opened once, after the register was committed, for the harmless misses and the accuracy effects",
+ "missing": [],
+ "detectors": {
+  "ours": {
+   "types": {
+    "scale": {
+     "detection": {
+      "rate": 1.0,
+      "k": 1000,
+      "n": 1000,
+      "wilson95": [
+       0.9961732414543059,
+       1.0
+      ]
+     },
+     "misses": 0,
+     "harmless_misses": 0,
+     "harmless_share_of_misses": null,
+     "f1_drop_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       0.962,
+       0.005,
+       0.385,
+       0.142,
+       -0.233,
+       0.266,
+       -0.256,
+       -0.839,
+       -0.094,
+       -1.853
+      ],
+      "mean": -0.15147747780864973,
+      "sd": 0.7600671351145437,
+      "ci95": [
+       -0.6951967519141768,
+       0.3922417962968774
+      ],
+      "ci90": [
+       -0.5920741125112641,
+       0.2891191568939646
+      ]
+     },
+     "backdoor_change_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       -2.408,
+       4.735,
+       -9.47,
+       0.562,
+       -9.069,
+       3.531,
+       -2.97,
+       0.08,
+       -1.685,
+       -3.612
+      ],
+      "mean": -2.0304975922953457,
+      "sd": 4.67163187527815,
+      "ci95": [
+       -5.372381716428257,
+       1.3113865318375657
+      ],
+      "ci90": [
+       -4.738554798987785,
+       0.6775596143970941
+      ]
+     },
+     "per_run": {
+      "0": {
+       "detected": 100,
+       "scored": 100,
+       "f1_drop_points": 0.9621794556300745,
+       "backdoor_change_points": -2.4077046548956678,
+       "misses_harmless": true
+      },
+      "1": {
+       "detected": 100,
+       "scored": 100,
+       "f1_drop_points": 0.0050077955705885024,
+       "backdoor_change_points": 4.735152487961478,
+       "misses_harmless": false
+      },
+      "2": {
+       "detected": 100,
+       "scored": 100,
+       "f1_drop_points": 0.385084160977317,
+       "backdoor_change_points": -9.470304975922955,
+       "misses_harmless": false
+      },
+      "3": {
+       "detected": 100,
+       "scored": 100,
+       "f1_drop_points": 0.1417159193368711,
+       "backdoor_change_points": 0.5617977528089874,
+       "misses_harmless": true
+      },
+      "4": {
+       "detected": 100,
+       "scored": 100,
+       "f1_drop_points": -0.2325170562579748,
+       "backdoor_change_points": -9.069020866773675,
+       "misses_harmless": false
+      },
+      "5": {
+       "detected": 100,
+       "scored": 100,
+       "f1_drop_points": 0.2657175510198395,
+       "backdoor_change_points": 3.531300160513645,
+       "misses_harmless": false
+      },
+      "6": {
+       "detected": 100,
+       "scored": 100,
+       "f1_drop_points": -0.25631878466736424,
+       "backdoor_change_points": -2.9695024077046552,
+       "misses_harmless": true
+      },
+      "7": {
+       "detected": 100,
+       "scored": 100,
+       "f1_drop_points": -0.8387574463002645,
+       "backdoor_change_points": 0.08025682182985494,
+       "misses_harmless": true
+      },
+      "8": {
+       "detected": 100,
+       "scored": 100,
+       "f1_drop_points": -0.09437593410657197,
+       "backdoor_change_points": -1.6853932584269677,
+       "misses_harmless": true
+      },
+      "9": {
+       "detected": 100,
+       "scored": 100,
+       "f1_drop_points": -1.8525104392890124,
+       "backdoor_change_points": -3.6115569823435,
+       "misses_harmless": false
+      }
+     },
+     "detection_dl10": {
+      "rate": 0.522,
+      "k": 522,
+      "n": 1000,
+      "wilson95": [
+       0.49101525188303635,
+       0.5528163707409531
+      ]
+     }
+    },
+    "signflip": {
+     "detection": {
+      "rate": 0.035,
+      "k": 35,
+      "n": 1000,
+      "wilson95": [
+       0.02527226295249554,
+       0.048286622494999945
+      ]
+     },
+     "misses": 965,
+     "harmless_misses": 389,
+     "harmless_share_of_misses": 0.40310880829015544,
+     "f1_drop_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       1.605,
+       0.919,
+       1.765,
+       1.326,
+       0.701,
+       0.426,
+       0.837,
+       0.519,
+       0.276,
+       -0.467
+      ],
+      "mean": 0.7906755716823948,
+      "sd": 0.6649086437526429,
+      "ci95": [
+       0.31502858153435326,
+       1.2663225618304363
+      ],
+      "ci90": [
+       0.4052405261611267,
+       1.1761106172036628
+      ]
+     },
+     "backdoor_change_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       -3.451,
+       1.926,
+       -2.648,
+       5.939,
+       -6.982,
+       2.087,
+       -10.273,
+       -4.815,
+       1.364,
+       -14.928
+      ],
+      "mean": -3.178170144462279,
+      "sd": 6.354574573747034,
+      "ci95": [
+       -7.7239589502978125,
+       1.3676186613732542
+      ],
+      "ci90": [
+       -6.861797606841384,
+       0.505457317916826
+      ]
+     },
+     "per_run": {
+      "0": {
+       "detected": 2,
+       "scored": 100,
+       "f1_drop_points": 1.6050968529751186,
+       "backdoor_change_points": -3.45104333868379,
+       "misses_harmless": false
+      },
+      "1": {
+       "detected": 10,
+       "scored": 100,
+       "f1_drop_points": 0.9192995436099416,
+       "backdoor_change_points": 1.9261637239165323,
+       "misses_harmless": true
+      },
+      "2": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 1.7650853413956502,
+       "backdoor_change_points": -2.6484751203852355,
+       "misses_harmless": true
+      },
+      "3": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 1.3257218454580388,
+       "backdoor_change_points": 5.9390048154093105,
+       "misses_harmless": false
+      },
+      "4": {
+       "detected": 21,
+       "scored": 100,
+       "f1_drop_points": 0.7011012287834795,
+       "backdoor_change_points": -6.982343499197433,
+       "misses_harmless": false
+      },
+      "5": {
+       "detected": 1,
+       "scored": 100,
+       "f1_drop_points": 0.4260975781988696,
+       "backdoor_change_points": 2.086677367576245,
+       "misses_harmless": true
+      },
+      "6": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 0.8369136917461495,
+       "backdoor_change_points": -10.272873194221507,
+       "misses_harmless": false
+      },
+      "7": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 0.5185729756598589,
+       "backdoor_change_points": -4.815409309791333,
+       "misses_harmless": false
+      },
+      "8": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 0.27550434052733275,
+       "backdoor_change_points": 1.364365971107545,
+       "misses_harmless": true
+      },
+      "9": {
+       "detected": 1,
+       "scored": 100,
+       "f1_drop_points": -0.4666376815304907,
+       "backdoor_change_points": -14.92776886035313,
+       "misses_harmless": false
+      }
+     },
+     "detection_dl10": {
+      "rate": 0.197,
+      "k": 197,
+      "n": 1000,
+      "wilson95": [
+       0.17352816156003298,
+       0.22279085411865762
+      ]
+     }
+    },
+    "inject": {
+     "detection": {
+      "rate": 0.031,
+      "k": 31,
+      "n": 1000,
+      "wilson95": [
+       0.02192400338761648,
+       0.04366549612824455
+      ]
+     },
+     "misses": 969,
+     "harmless_misses": 397,
+     "harmless_share_of_misses": 0.40970072239422084,
+     "f1_drop_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       0.851,
+       0.451,
+       0.84,
+       0.97,
+       -0.484,
+       0.223,
+       -0.401,
+       -0.948,
+       -0.593,
+       -1.803
+      ],
+      "mean": -0.08927081809503301,
+      "sd": 0.9091448765407377,
+      "ci95": [
+       -0.739633884056297,
+       0.561092247866231
+      ],
+      "ci90": [
+       -0.6162850179664782,
+       0.43774338177641214
+      ]
+     },
+     "backdoor_change_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       -0.803,
+       -3.371,
+       -7.384,
+       3.371,
+       -8.909,
+       0.803,
+       -6.019,
+       -1.926,
+       -1.846,
+       -3.612
+      ],
+      "mean": -2.969502407704655,
+      "sd": 3.7432157975104605,
+      "ci95": [
+       -5.647237678992251,
+       -0.2917671364170582
+      ],
+      "ci90": [
+       -5.139374261327462,
+       -0.7996305540818476
+      ]
+     },
+     "per_run": {
+      "0": {
+       "detected": 2,
+       "scored": 100,
+       "f1_drop_points": 0.8511393866335204,
+       "backdoor_change_points": -0.802568218298555,
+       "misses_harmless": true
+      },
+      "1": {
+       "detected": 8,
+       "scored": 100,
+       "f1_drop_points": 0.4512736582001575,
+       "backdoor_change_points": -3.3707865168539324,
+       "misses_harmless": false
+      },
+      "2": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 0.8403529629348927,
+       "backdoor_change_points": -7.3836276083467105,
+       "misses_harmless": false
+      },
+      "3": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 0.9697515038085469,
+       "backdoor_change_points": 3.3707865168539324,
+       "misses_harmless": false
+      },
+      "4": {
+       "detected": 19,
+       "scored": 100,
+       "f1_drop_points": -0.4835977759199084,
+       "backdoor_change_points": -8.908507223113965,
+       "misses_harmless": false
+      },
+      "5": {
+       "detected": 1,
+       "scored": 100,
+       "f1_drop_points": 0.22260363656787518,
+       "backdoor_change_points": 0.8025682182985577,
+       "misses_harmless": true
+      },
+      "6": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": -0.40060240451269546,
+       "backdoor_change_points": -6.019261637239165,
+       "misses_harmless": false
+      },
+      "7": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": -0.9484641330036014,
+       "backdoor_change_points": -1.9261637239165323,
+       "misses_harmless": true
+      },
+      "8": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": -0.5926024317621015,
+       "backdoor_change_points": -1.8459069020866776,
+       "misses_harmless": true
+      },
+      "9": {
+       "detected": 1,
+       "scored": 100,
+       "f1_drop_points": -1.802562583897016,
+       "backdoor_change_points": -3.6115569823435,
+       "misses_harmless": false
+      }
+     },
+     "detection_dl10": {
+      "rate": 0.196,
+      "k": 196,
+      "n": 1000,
+      "wilson95": [
+       0.17257900491308353,
+       0.22174766428269843
+      ]
+     }
+    },
+    "drop": {
+     "detection": {
+      "rate": 0.894,
+      "k": 894,
+      "n": 1000,
+      "wilson95": [
+       0.8733895810017014,
+       0.9115949332642916
+      ]
+     },
+     "misses": 106,
+     "harmless_misses": 68,
+     "harmless_share_of_misses": 0.6415094339622641,
+     "f1_drop_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       1.163,
+       -0.001,
+       0.656,
+       0.056,
+       0.051,
+       0.123,
+       -0.423,
+       -1.115,
+       0.315,
+       -1.204
+      ],
+      "mean": -0.03804288328828953,
+      "sd": 0.7273528622334783,
+      "ci95": [
+       -0.5583597763645376,
+       0.48227400978795854
+      ],
+      "ci90": [
+       -0.4596756687830727,
+       0.38358990220649364
+      ]
+     },
+     "backdoor_change_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       -0.401,
+       1.605,
+       -4.494,
+       0.08,
+       1.846,
+       -4.254,
+       1.284,
+       -1.525,
+       -1.204,
+       -3.291
+      ],
+      "mean": -1.0353130016051364,
+      "sd": 2.3564638418279578,
+      "ci95": [
+       -2.72102568452693,
+       0.650399681316657
+      ],
+      "ci90": [
+       -2.401310806984954,
+       0.330684803774681
+      ]
+     },
+     "per_run": {
+      "0": {
+       "detected": 92,
+       "scored": 100,
+       "f1_drop_points": 1.1629492101603467,
+       "backdoor_change_points": -0.40128410914928025,
+       "misses_harmless": true
+      },
+      "1": {
+       "detected": 93,
+       "scored": 100,
+       "f1_drop_points": -0.0007326560398590587,
+       "backdoor_change_points": 1.6051364365971126,
+       "misses_harmless": true
+      },
+      "2": {
+       "detected": 83,
+       "scored": 100,
+       "f1_drop_points": 0.6556440983811473,
+       "backdoor_change_points": -4.49438202247191,
+       "misses_harmless": false
+      },
+      "3": {
+       "detected": 79,
+       "scored": 100,
+       "f1_drop_points": 0.05595030159450398,
+       "backdoor_change_points": 0.08025682182985494,
+       "misses_harmless": true
+      },
+      "4": {
+       "detected": 99,
+       "scored": 100,
+       "f1_drop_points": 0.05060669585144617,
+       "backdoor_change_points": 1.8459069020866803,
+       "misses_harmless": true
+      },
+      "5": {
+       "detected": 87,
+       "scored": 100,
+       "f1_drop_points": 0.12311548478605161,
+       "backdoor_change_points": -4.253611556982342,
+       "misses_harmless": false
+      },
+      "6": {
+       "detected": 98,
+       "scored": 100,
+       "f1_drop_points": -0.4232358159332761,
+       "backdoor_change_points": 1.2841091492776902,
+       "misses_harmless": true
+      },
+      "7": {
+       "detected": 87,
+       "scored": 100,
+       "f1_drop_points": -1.1154111589874116,
+       "backdoor_change_points": -1.524879614767255,
+       "misses_harmless": true
+      },
+      "8": {
+       "detected": 84,
+       "scored": 100,
+       "f1_drop_points": 0.3149383223068791,
+       "backdoor_change_points": -1.2038523274478352,
+       "misses_harmless": true
+      },
+      "9": {
+       "detected": 92,
+       "scored": 100,
+       "f1_drop_points": -1.2042533150027235,
+       "backdoor_change_points": -3.2905296950240803,
+       "misses_harmless": false
+      }
+     },
+     "detection_dl10": {
+      "rate": 0.404,
+      "k": 404,
+      "n": 1000,
+      "wilson95": [
+       0.3740102083880176,
+       0.4347245292527556
+      ]
+     }
+    },
+    "adaptive": {
+     "detection": {
+      "rate": 0.0,
+      "k": 0,
+      "n": 990,
+      "wilson95": [
+       0.0,
+       0.0038652632640422202
+      ]
+     },
+     "misses": 990,
+     "harmless_misses": 594,
+     "harmless_share_of_misses": 0.6,
+     "f1_drop_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       1.803,
+       1.703,
+       1.327,
+       0.737,
+       0.747,
+       -0.255,
+       0.9,
+       -0.237,
+       0.213,
+       -0.682
+      ],
+      "mean": 0.6255783117309217,
+      "sd": 0.8526599685865098,
+      "ci95": [
+       0.015622114757831929,
+       1.2355345087040115
+      ],
+      "ci90": [
+       0.13130735151075978,
+       1.1198492719510837
+      ]
+     },
+     "backdoor_change_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       -0.241,
+       -4.254,
+       -0.482,
+       2.006,
+       -6.1,
+       2.729,
+       -12.841,
+       -1.204,
+       -0.963,
+       -12.44
+      ],
+      "mean": -3.3788121990369193,
+      "sd": 5.526847574617382,
+      "ci95": [
+       -7.332480779786682,
+       0.5748563817128431
+      ],
+      "ci90": [
+       -6.582621875038432,
+       -0.17500252303540575
+      ]
+     },
+     "per_run": {
+      "0": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": 1.8034055072800814,
+       "backdoor_change_points": -0.24077046548957037,
+       "misses_harmless": true
+      },
+      "1": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": 1.7029854143939982,
+       "backdoor_change_points": -4.253611556982345,
+       "misses_harmless": false
+      },
+      "2": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": 1.3273727386355127,
+       "backdoor_change_points": -0.4815409309791352,
+       "misses_harmless": true
+      },
+      "3": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": 0.7370263192444326,
+       "backdoor_change_points": 2.0064205457463875,
+       "misses_harmless": true
+      },
+      "4": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": 0.7466722584739349,
+       "backdoor_change_points": -6.09951845906902,
+       "misses_harmless": false
+      },
+      "5": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": -0.2545547265661585,
+       "backdoor_change_points": 2.72873194221509,
+       "misses_harmless": true
+      },
+      "6": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": 0.8996942144318953,
+       "backdoor_change_points": -12.841091492776885,
+       "misses_harmless": false
+      },
+      "7": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": -0.23734927594915023,
+       "backdoor_change_points": -1.2038523274478352,
+       "misses_harmless": true
+      },
+      "8": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": 0.21297274688988344,
+       "backdoor_change_points": -0.9630818619582676,
+       "misses_harmless": true
+      },
+      "9": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": -0.682442079525214,
+       "backdoor_change_points": -12.43980738362761,
+       "misses_harmless": false
+      }
+     },
+     "largest_undetected_f1_drop_points": 1.8034055072800814,
+     "largest_undetected_backdoor_change_points": 12.841091492776885
+    }
+   },
+   "false_alarms": {
+    "pooled_all_runs": {
+     "rate": 0.01889189189189189,
+     "k": 699,
+     "n": 37000,
+     "wilson95": [
+      0.017553796273275888,
+      0.02032987751878226
+     ]
+    },
+    "tampering_runs_only": {
+     "rate": 0.0168,
+     "k": 504,
+     "n": 30000,
+     "wilson95": [
+      0.0154063126930926,
+      0.018317417658834906
+     ]
+    },
+    "without_tampering": {
+     "rate": 0.027857142857142858,
+     "k": 195,
+     "n": 7000,
+     "wilson95": [
+      0.02425339908784582,
+      0.0319788073653544
+     ]
+    },
+    "per_gateway": {
+     "0": {
+      "rate": 0.0014545454545454545,
+      "k": 8,
+      "n": 5500,
+      "wilson95": [
+       0.0007372323170378196,
+       0.0028677877456819646
+      ]
+     },
+     "1": {
+      "rate": 0.0008888888888888889,
+      "k": 4,
+      "n": 4500,
+      "wilson95": [
+       0.0003457241208584779,
+       0.0022834667575072284
+      ]
+     },
+     "2": {
+      "rate": 0.0023333333333333335,
+      "k": 14,
+      "n": 6000,
+      "wilson95": [
+       0.0013904661284127376,
+       0.00391304814646771
+      ]
+     },
+     "3": {
+      "rate": 0.03425,
+      "k": 137,
+      "n": 4000,
+      "wilson95": [
+       0.0290457430659775,
+       0.04034797837246504
+      ]
+     },
+     "4": {
+      "rate": 0.014181818181818183,
+      "k": 78,
+      "n": 5500,
+      "wilson95": [
+       0.011378776832535752,
+       0.0176630224408367
+      ]
+     },
+     "5": {
+      "rate": 0.032,
+      "k": 176,
+      "n": 5500,
+      "wilson95": [
+       0.02766545499923868,
+       0.03698783516904751
+      ]
+     },
+     "6": {
+      "rate": 0.047,
+      "k": 282,
+      "n": 6000,
+      "wilson95": [
+       0.04192861411124564,
+       0.052651075037825054
+      ]
+     }
+    },
+    "dl10_pooled_all_runs": {
+     "rate": 0.15135135135135136,
+     "k": 5600,
+     "n": 37000,
+     "wilson95": [
+      0.14773577778549357,
+      0.1550393130474681
+     ]
+    }
+   },
+   "reference_f0": {
+    "f1": {
+     "mean": 0.5037761383236202,
+     "sd": 0.011919708598616574,
+     "n": 10
+    },
+    "backdoor": {
+     "mean": 0.257223113964687,
+     "sd": 0.04538789567300488,
+     "n": 10
+    }
+   }
+  },
+  "hflmld_native": {
+   "types": {
+    "scale": {
+     "detection": {
+      "rate": 0.995,
+      "k": 199,
+      "n": 200,
+      "wilson95": [
+       0.972226295303572,
+       0.9991168312941546
+      ]
+     },
+     "misses": 1,
+     "harmless_misses": 1,
+     "harmless_share_of_misses": 1.0,
+     "f1_drop_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       0.163,
+       -0.183,
+       -0.757,
+       -0.908,
+       -0.874,
+       0.063,
+       -0.28,
+       -0.344,
+       -0.401,
+       0.437
+      ],
+      "mean": -0.30848276517993156,
+      "sd": 0.4498587843537753,
+      "ci95": [
+       -0.6302923532789727,
+       0.013326822919109582
+      ],
+      "ci90": [
+       -0.5692574485213082,
+       -0.047708081838554905
+      ]
+     },
+     "backdoor_change_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       -2.087,
+       -1.926,
+       -3.451,
+       -0.08,
+       -0.08,
+       -2.809,
+       2.648,
+       1.124,
+       2.167,
+       -1.204
+      ],
+      "mean": -0.5698234349919746,
+      "sd": 2.0830558083150206,
+      "ci95": [
+       -2.05995179299243,
+       0.9203049230084803
+      ],
+      "ci90": [
+       -1.777331741351017,
+       0.6376848713670678
+      ]
+     },
+     "per_run": {
+      "0": {
+       "detected": 20,
+       "scored": 20,
+       "f1_drop_points": 0.16282891241659048,
+       "backdoor_change_points": -2.086677367576245,
+       "misses_harmless": true
+      },
+      "1": {
+       "detected": 20,
+       "scored": 20,
+       "f1_drop_points": -0.18276112587333193,
+       "backdoor_change_points": -1.9261637239165323,
+       "misses_harmless": true
+      },
+      "2": {
+       "detected": 20,
+       "scored": 20,
+       "f1_drop_points": -0.7565285207101757,
+       "backdoor_change_points": -3.45104333868379,
+       "misses_harmless": false
+      },
+      "3": {
+       "detected": 20,
+       "scored": 20,
+       "f1_drop_points": -0.9083236490896263,
+       "backdoor_change_points": -0.08025682182985772,
+       "misses_harmless": true
+      },
+      "4": {
+       "detected": 20,
+       "scored": 20,
+       "f1_drop_points": -0.8736082374392051,
+       "backdoor_change_points": -0.08025682182985494,
+       "misses_harmless": true
+      },
+      "5": {
+       "detected": 20,
+       "scored": 20,
+       "f1_drop_points": 0.06261060882785108,
+       "backdoor_change_points": -2.808988764044945,
+       "misses_harmless": true
+      },
+      "6": {
+       "detected": 20,
+       "scored": 20,
+       "f1_drop_points": -0.28034112541240885,
+       "backdoor_change_points": 2.6484751203852355,
+       "misses_harmless": true
+      },
+      "7": {
+       "detected": 20,
+       "scored": 20,
+       "f1_drop_points": -0.3442065215313206,
+       "backdoor_change_points": 1.1235955056179776,
+       "misses_harmless": true
+      },
+      "8": {
+       "detected": 20,
+       "scored": 20,
+       "f1_drop_points": -0.401092311892115,
+       "backdoor_change_points": 2.1669341894060974,
+       "misses_harmless": true
+      },
+      "9": {
+       "detected": 19,
+       "scored": 20,
+       "f1_drop_points": 0.43659431890442635,
+       "backdoor_change_points": -1.2038523274478297,
+       "misses_harmless": true
+      }
+     }
+    },
+    "signflip": {
+     "detection": {
+      "rate": 0.085,
+      "k": 17,
+      "n": 200,
+      "wilson95": [
+       0.05374574998400461,
+       0.13189587115123463
+      ]
+     },
+     "misses": 183,
+     "harmless_misses": 123,
+     "harmless_share_of_misses": 0.6721311475409836,
+     "f1_drop_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       1.005,
+       0.83,
+       0.178,
+       1.698,
+       0.041,
+       1.67,
+       0.529,
+       2.137,
+       2.646,
+       1.404
+      ],
+      "mean": 1.214007202747982,
+      "sd": 0.8491872122269517,
+      "ci95": [
+       0.6065352660194556,
+       1.8214791394765084
+      ],
+      "ci90": [
+       0.7217493341278572,
+       1.7062650713681067
+      ]
+     },
+     "backdoor_change_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       -1.284,
+       -1.926,
+       -1.846,
+       1.124,
+       0.08,
+       -6.1,
+       2.087,
+       -4.414,
+       -1.124,
+       2.006
+      ],
+      "mean": -1.1396468699839482,
+      "sd": 2.653685337774516,
+      "ci95": [
+       -3.037979002634044,
+       0.7586852626661478
+      ],
+      "ci90": [
+       -2.6779383910440195,
+       0.39864465107612324
+      ]
+     },
+     "per_run": {
+      "0": {
+       "detected": 1,
+       "scored": 20,
+       "f1_drop_points": 1.005464619920593,
+       "backdoor_change_points": -1.2841091492776902,
+       "misses_harmless": true
+      },
+      "1": {
+       "detected": 0,
+       "scored": 20,
+       "f1_drop_points": 0.8304703565253702,
+       "backdoor_change_points": -1.9261637239165323,
+       "misses_harmless": true
+      },
+      "2": {
+       "detected": 8,
+       "scored": 20,
+       "f1_drop_points": 0.17790794668106624,
+       "backdoor_change_points": -1.8459069020866776,
+       "misses_harmless": true
+      },
+      "3": {
+       "detected": 0,
+       "scored": 20,
+       "f1_drop_points": 1.6984271893482727,
+       "backdoor_change_points": 1.1235955056179776,
+       "misses_harmless": true
+      },
+      "4": {
+       "detected": 0,
+       "scored": 20,
+       "f1_drop_points": 0.041241082962717446,
+       "backdoor_change_points": 0.08025682182985772,
+       "misses_harmless": true
+      },
+      "5": {
+       "detected": 0,
+       "scored": 20,
+       "f1_drop_points": 1.6701211530916416,
+       "backdoor_change_points": -6.099518459069023,
+       "misses_harmless": false
+      },
+      "6": {
+       "detected": 1,
+       "scored": 20,
+       "f1_drop_points": 0.5294468058307245,
+       "backdoor_change_points": 2.086677367576245,
+       "misses_harmless": true
+      },
+      "7": {
+       "detected": 0,
+       "scored": 20,
+       "f1_drop_points": 2.136649810786584,
+       "backdoor_change_points": -4.414125200642053,
+       "misses_harmless": false
+      },
+      "8": {
+       "detected": 0,
+       "scored": 20,
+       "f1_drop_points": 2.6464716267635247,
+       "backdoor_change_points": -1.1235955056179776,
+       "misses_harmless": false
+      },
+      "9": {
+       "detected": 7,
+       "scored": 20,
+       "f1_drop_points": 1.403871435569326,
+       "backdoor_change_points": 2.00642054574639,
+       "misses_harmless": true
+      }
+     }
+    },
+    "inject": {
+     "detection": {
+      "rate": 0.07,
+      "k": 14,
+      "n": 200,
+      "wilson95": [
+       0.04215217166140097,
+       0.11405480927390715
+      ]
+     },
+     "misses": 186,
+     "harmless_misses": 186,
+     "harmless_share_of_misses": 1.0,
+     "f1_drop_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       0.295,
+       0.407,
+       0.028,
+       1.026,
+       0.002,
+       0.522,
+       0.076,
+       1.256,
+       1.283,
+       0.635
+      ],
+      "mean": 0.5528137985571592,
+      "sd": 0.4889798362878906,
+      "ci95": [
+       0.20301869578821163,
+       0.9026089013261067
+      ],
+      "ci90": [
+       0.26936137658997045,
+       0.8362662205243478
+      ]
+     },
+     "backdoor_change_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       -1.124,
+       -2.167,
+       -0.803,
+       1.605,
+       -0.803,
+       -1.204,
+       2.167,
+       -0.803,
+       -0.722,
+       0.482
+      ],
+      "mean": -0.33707865168539347,
+      "sd": 1.3428469057937,
+      "ci95": [
+       -1.2976934594062555,
+       0.6235361560354684
+      ],
+      "ci90": [
+       -1.115501767591279,
+       0.44134446422049217
+      ]
+     },
+     "per_run": {
+      "0": {
+       "detected": 0,
+       "scored": 20,
+       "f1_drop_points": 0.29513043313404985,
+       "backdoor_change_points": -1.1235955056179776,
+       "misses_harmless": true
+      },
+      "1": {
+       "detected": 0,
+       "scored": 20,
+       "f1_drop_points": 0.40656060926089754,
+       "backdoor_change_points": -2.1669341894061,
+       "misses_harmless": true
+      },
+      "2": {
+       "detected": 7,
+       "scored": 20,
+       "f1_drop_points": 0.02803297015477879,
+       "backdoor_change_points": -0.802568218298555,
+       "misses_harmless": true
+      },
+      "3": {
+       "detected": 0,
+       "scored": 20,
+       "f1_drop_points": 1.0255088462480022,
+       "backdoor_change_points": 1.6051364365971073,
+       "misses_harmless": true
+      },
+      "4": {
+       "detected": 0,
+       "scored": 20,
+       "f1_drop_points": 0.0016940415159760747,
+       "backdoor_change_points": -0.802568218298555,
+       "misses_harmless": true
+      },
+      "5": {
+       "detected": 0,
+       "scored": 20,
+       "f1_drop_points": 0.5217829279497876,
+       "backdoor_change_points": -1.2038523274478352,
+       "misses_harmless": true
+      },
+      "6": {
+       "detected": 1,
+       "scored": 20,
+       "f1_drop_points": 0.07621139774975916,
+       "backdoor_change_points": 2.1669341894061,
+       "misses_harmless": true
+      },
+      "7": {
+       "detected": 0,
+       "scored": 20,
+       "f1_drop_points": 1.2557723540042698,
+       "backdoor_change_points": -0.802568218298555,
+       "misses_harmless": true
+      },
+      "8": {
+       "detected": 0,
+       "scored": 20,
+       "f1_drop_points": 1.282578296284509,
+       "backdoor_change_points": -0.7223113964687,
+       "misses_harmless": true
+      },
+      "9": {
+       "detected": 6,
+       "scored": 20,
+       "f1_drop_points": 0.6348661092695607,
+       "backdoor_change_points": 0.4815409309791352,
+       "misses_harmless": true
+      }
+     }
+    },
+    "drop": {
+     "detection": {
+      "rate": 0.185,
+      "k": 37,
+      "n": 200,
+      "wilson95": [
+       0.1373019276778717,
+       0.24457062812357494
+      ]
+     },
+     "misses": 163,
+     "harmless_misses": 163,
+     "harmless_share_of_misses": 1.0,
+     "f1_drop_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       -0.113,
+       -0.27,
+       -0.24,
+       0.193,
+       -1.058,
+       0.214,
+       0.357,
+       -0.361,
+       -0.195,
+       -0.127
+      ],
+      "mean": -0.16018648956358295,
+      "sd": 0.39468078330731193,
+      "ci95": [
+       -0.44252411355637994,
+       0.12215113442921405
+      ],
+      "ci90": [
+       -0.3889755226281254,
+       0.06860254350095951
+      ]
+     },
+     "backdoor_change_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       0.08,
+       -1.525,
+       -0.482,
+       0.482,
+       0.321,
+       -0.482,
+       1.766,
+       1.124,
+       -0.482,
+       -0.562
+      ],
+      "mean": 0.024077046548956503,
+      "sd": 0.9458735485448532,
+      "ci95": [
+       -0.652560128577583,
+       0.700714221675496
+      ],
+      "ci90": [
+       -0.5242280742615589,
+       0.5723821673594719
+      ]
+     },
+     "per_run": {
+      "0": {
+       "detected": 5,
+       "scored": 20,
+       "f1_drop_points": -0.11281193338953388,
+       "backdoor_change_points": 0.08025682182985494,
+       "misses_harmless": true
+      },
+      "1": {
+       "detected": 3,
+       "scored": 20,
+       "f1_drop_points": -0.2703685375067044,
+       "backdoor_change_points": -1.524879614767255,
+       "misses_harmless": true
+      },
+      "2": {
+       "detected": 8,
+       "scored": 20,
+       "f1_drop_points": -0.2402313998146388,
+       "backdoor_change_points": -0.4815409309791352,
+       "misses_harmless": true
+      },
+      "3": {
+       "detected": 1,
+       "scored": 20,
+       "f1_drop_points": 0.19292675521481728,
+       "backdoor_change_points": 0.4815409309791324,
+       "misses_harmless": true
+      },
+      "4": {
+       "detected": 3,
+       "scored": 20,
+       "f1_drop_points": -1.0581419141430626,
+       "backdoor_change_points": 0.32102728731942254,
+       "misses_harmless": true
+      },
+      "5": {
+       "detected": 0,
+       "scored": 20,
+       "f1_drop_points": 0.21356410757485955,
+       "backdoor_change_points": -0.4815409309791352,
+       "misses_harmless": true
+      },
+      "6": {
+       "detected": 6,
+       "scored": 20,
+       "f1_drop_points": 0.3572119362709736,
+       "backdoor_change_points": 1.7656500802568225,
+       "misses_harmless": true
+      },
+      "7": {
+       "detected": 2,
+       "scored": 20,
+       "f1_drop_points": -0.36133242748696004,
+       "backdoor_change_points": 1.1235955056179776,
+       "misses_harmless": true
+      },
+      "8": {
+       "detected": 0,
+       "scored": 20,
+       "f1_drop_points": -0.1952432887680211,
+       "backdoor_change_points": -0.4815409309791352,
+       "misses_harmless": true
+      },
+      "9": {
+       "detected": 9,
+       "scored": 20,
+       "f1_drop_points": -0.12743819358755903,
+       "backdoor_change_points": -0.5617977528089846,
+       "misses_harmless": true
+      }
+     }
+    },
+    "adaptive": {
+     "detection": {
+      "rate": 0.0,
+      "k": 0,
+      "n": 190,
+      "wilson95": [
+       0.0,
+       0.019817529766160188
+      ]
+     },
+     "misses": 190,
+     "harmless_misses": 133,
+     "harmless_share_of_misses": 0.7,
+     "f1_drop_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       1.06,
+       1.044,
+       0.724,
+       1.71,
+       0.218,
+       1.255,
+       0.244,
+       2.024,
+       2.372,
+       1.216
+      ],
+      "mean": 1.1866767206953486,
+      "sd": 0.7042732430781005,
+      "ci95": [
+       0.6828699925690729,
+       1.6904834488216243
+      ],
+      "ci90": [
+       0.7784227567023594,
+       1.5949306846883378
+      ]
+     },
+     "backdoor_change_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       -1.043,
+       -2.809,
+       -1.284,
+       1.445,
+       -0.803,
+       -4.093,
+       -0.562,
+       -1.685,
+       -0.161,
+       -0.562
+      ],
+      "mean": -1.1556982343499205,
+      "sd": 1.5001324195809673,
+      "ci95": [
+       -2.228828320567648,
+       -0.08256814813219271
+      ],
+      "ci90": [
+       -2.025296806818203,
+       -0.28609966188163793
+      ]
+     },
+     "per_run": {
+      "0": {
+       "detected": 0,
+       "scored": 19,
+       "f1_drop_points": 1.0600105525268688,
+       "backdoor_change_points": -1.0433386837881224,
+       "misses_harmless": true
+      },
+      "1": {
+       "detected": 0,
+       "scored": 19,
+       "f1_drop_points": 1.044125845067434,
+       "backdoor_change_points": -2.808988764044945,
+       "misses_harmless": true
+      },
+      "2": {
+       "detected": 0,
+       "scored": 19,
+       "f1_drop_points": 0.7238385182480211,
+       "backdoor_change_points": -1.2841091492776902,
+       "misses_harmless": true
+      },
+      "3": {
+       "detected": 0,
+       "scored": 19,
+       "f1_drop_points": 1.7098929835613785,
+       "backdoor_change_points": 1.4446227929373974,
+       "misses_harmless": true
+      },
+      "4": {
+       "detected": 0,
+       "scored": 19,
+       "f1_drop_points": 0.21763240085350688,
+       "backdoor_change_points": -0.802568218298555,
+       "misses_harmless": true
+      },
+      "5": {
+       "detected": 0,
+       "scored": 19,
+       "f1_drop_points": 1.2552583582425059,
+       "backdoor_change_points": -4.0930979133226355,
+       "misses_harmless": false
+      },
+      "6": {
+       "detected": 0,
+       "scored": 19,
+       "f1_drop_points": 0.24376829524923593,
+       "backdoor_change_points": -0.5617977528089901,
+       "misses_harmless": true
+      },
+      "7": {
+       "detected": 0,
+       "scored": 19,
+       "f1_drop_points": 2.0240717596024083,
+       "backdoor_change_points": -1.6853932584269649,
+       "misses_harmless": false
+      },
+      "8": {
+       "detected": 0,
+       "scored": 19,
+       "f1_drop_points": 2.371891649072455,
+       "backdoor_change_points": -0.16051364365971266,
+       "misses_harmless": false
+      },
+      "9": {
+       "detected": 0,
+       "scored": 19,
+       "f1_drop_points": 1.2162768445296734,
+       "backdoor_change_points": -0.5617977528089846,
+       "misses_harmless": true
+      }
+     },
+     "largest_undetected_f1_drop_points": 2.371891649072455,
+     "largest_undetected_backdoor_change_points": 4.0930979133226355
+    }
+   },
+   "false_alarms": {
+    "pooled_all_runs": {
+     "rate": 0.12594594594594594,
+     "k": 932,
+     "n": 7400,
+     "wilson95": [
+      0.11857998545822805,
+      0.1337000598742827
+     ]
+    },
+    "tampering_runs_only": {
+     "rate": 0.122,
+     "k": 732,
+     "n": 6000,
+     "wilson95": [
+      0.11395965326148892,
+      0.1305240608629012
+     ]
+    },
+    "without_tampering": {
+     "rate": 0.14285714285714285,
+     "k": 200,
+     "n": 1400,
+     "wilson95": [
+      0.12550348574601222,
+      0.1621653648399452
+     ]
+    },
+    "per_gateway": {
+     "0": {
+      "rate": 0.046363636363636364,
+      "k": 51,
+      "n": 1100,
+      "wilson95": [
+       0.035437897352007766,
+       0.060446758936008954
+      ]
+     },
+     "1": {
+      "rate": 0.035555555555555556,
+      "k": 32,
+      "n": 900,
+      "wilson95": [
+       0.02529677736211613,
+       0.049762247884706276
+      ]
+     },
+     "2": {
+      "rate": 0.04666666666666667,
+      "k": 56,
+      "n": 1200,
+      "wilson95": [
+       0.03611089188954626,
+       0.0601156153690964
+      ]
+     },
+     "3": {
+      "rate": 0.13125,
+      "k": 105,
+      "n": 800,
+      "wilson95": [
+       0.10960261244288239,
+       0.15642180881413836
+      ]
+     },
+     "4": {
+      "rate": 0.26636363636363636,
+      "k": 293,
+      "n": 1100,
+      "wilson95": [
+       0.2410861366693998,
+       0.29326728350298553
+      ]
+     },
+     "5": {
+      "rate": 0.11090909090909092,
+      "k": 122,
+      "n": 1100,
+      "wilson95": [
+       0.09368902786644101,
+       0.13083729055294008
+      ]
+     },
+     "6": {
+      "rate": 0.2275,
+      "k": 273,
+      "n": 1200,
+      "wilson95": [
+       0.20467240577937268,
+       0.2520666895764659
+      ]
+     }
+    }
+   },
+   "reference_f0": {
+    "f1": {
+     "mean": 0.6203756085898898,
+     "sd": 0.009010935440712298,
+     "n": 10
+    },
+    "backdoor": {
+     "mean": 0.235553772070626,
+     "sd": 0.02197027952663696,
+     "n": 10
+    }
+   }
+  },
+  "hflmld_cloud": {
+   "types": {
+    "scale": {
+     "detection": {
+      "rate": 0.467,
+      "k": 467,
+      "n": 1000,
+      "wilson95": [
+       0.43626306473301274,
+       0.497989501331003
+      ]
+     },
+     "misses": 533,
+     "harmless_misses": 384,
+     "harmless_share_of_misses": 0.7204502814258912,
+     "f1_drop_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       0.382,
+       -0.109,
+       1.544,
+       0.294,
+       -0.269,
+       0.094,
+       0.184,
+       -0.493,
+       0.579,
+       -0.542
+      ],
+      "mean": 0.1664965812529562,
+      "sd": 0.6091101361831016,
+      "ci95": [
+       -0.2692345611623576,
+       0.60222772366827
+      ],
+      "ci90": [
+       -0.1865931180208869,
+       0.5195862805267992
+      ]
+     },
+     "backdoor_change_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       1.445,
+       -0.482,
+       -3.692,
+       -5.056,
+       -0.161,
+       8.507,
+       2.408,
+       -4.655,
+       -3.05,
+       -4.334
+      ],
+      "mean": -0.9069020866773678,
+      "sd": 4.232620640925296,
+      "ci95": [
+       -3.934736492517259,
+       2.120932319162523
+      ],
+      "ci90": [
+       -3.360472730911929,
+       1.546668557557193
+      ]
+     },
+     "per_run": {
+      "0": {
+       "detected": 2,
+       "scored": 100,
+       "f1_drop_points": 0.382237889920084,
+       "backdoor_change_points": 1.4446227929374,
+       "misses_harmless": true
+      },
+      "1": {
+       "detected": 11,
+       "scored": 100,
+       "f1_drop_points": -0.10894616598557949,
+       "backdoor_change_points": -0.4815409309791324,
+       "misses_harmless": true
+      },
+      "2": {
+       "detected": 90,
+       "scored": 100,
+       "f1_drop_points": 1.5443477626436608,
+       "backdoor_change_points": -3.6918138041733553,
+       "misses_harmless": false
+      },
+      "3": {
+       "detected": 100,
+       "scored": 100,
+       "f1_drop_points": 0.29417816576804423,
+       "backdoor_change_points": -5.0561797752809,
+       "misses_harmless": false
+      },
+      "4": {
+       "detected": 2,
+       "scored": 100,
+       "f1_drop_points": -0.2689553458130489,
+       "backdoor_change_points": -0.16051364365971266,
+       "misses_harmless": true
+      },
+      "5": {
+       "detected": 17,
+       "scored": 100,
+       "f1_drop_points": 0.0941537016087679,
+       "backdoor_change_points": 8.507223113964688,
+       "misses_harmless": false
+      },
+      "6": {
+       "detected": 1,
+       "scored": 100,
+       "f1_drop_points": 0.18413104760856003,
+       "backdoor_change_points": 2.4077046548956647,
+       "misses_harmless": true
+      },
+      "7": {
+       "detected": 100,
+       "scored": 100,
+       "f1_drop_points": -0.49332445644711953,
+       "backdoor_change_points": -4.65489566613162,
+       "misses_harmless": false
+      },
+      "8": {
+       "detected": 100,
+       "scored": 100,
+       "f1_drop_points": 0.5787754499562314,
+       "backdoor_change_points": -3.04975922953451,
+       "misses_harmless": false
+      },
+      "9": {
+       "detected": 44,
+       "scored": 100,
+       "f1_drop_points": -0.5416322367300386,
+       "backdoor_change_points": -4.3338683788122,
+       "misses_harmless": false
+      }
+     }
+    },
+    "signflip": {
+     "detection": {
+      "rate": 0.15,
+      "k": 150,
+      "n": 1000,
+      "wilson95": [
+       0.12921007235961485,
+       0.17346865862237099
+      ]
+     },
+     "misses": 850,
+     "harmless_misses": 77,
+     "harmless_share_of_misses": 0.09058823529411765,
+     "f1_drop_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       2.752,
+       2.132,
+       2.271,
+       0.719,
+       1.088,
+       2.245,
+       2.452,
+       0.778,
+       0.044,
+       3.122
+      ],
+      "mean": 1.760254681875552,
+      "sd": 1.0217009229744731,
+      "ci95": [
+       1.0293738707891604,
+       2.4911354929619436
+      ],
+      "ci90": [
+       1.167993857090294,
+       2.35251550666081
+      ]
+     },
+     "backdoor_change_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       -4.414,
+       -10.273,
+       -3.612,
+       1.124,
+       -6.742,
+       1.364,
+       -12.279,
+       -3.451,
+       -1.605,
+       -8.026
+      ],
+      "mean": -4.791332263242375,
+      "sd": 4.555127524898475,
+      "ci95": [
+       -8.04987419575556,
+       -1.532790330729191
+      ],
+      "ci90": [
+       -7.4318540874218435,
+       -2.1508104390629073
+      ]
+     },
+     "per_run": {
+      "0": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 2.751599656589332,
+       "backdoor_change_points": -4.414125200642055,
+       "misses_harmless": false
+      },
+      "1": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 2.1319437417446965,
+       "backdoor_change_points": -10.272873194221507,
+       "misses_harmless": false
+      },
+      "2": {
+       "detected": 3,
+       "scored": 100,
+       "f1_drop_points": 2.2709616299156132,
+       "backdoor_change_points": -3.6115569823435,
+       "misses_harmless": false
+      },
+      "3": {
+       "detected": 35,
+       "scored": 100,
+       "f1_drop_points": 0.719435292735926,
+       "backdoor_change_points": 1.1235955056179776,
+       "misses_harmless": true
+      },
+      "4": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 1.0880491908829837,
+       "backdoor_change_points": -6.741573033707865,
+       "misses_harmless": false
+      },
+      "5": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 2.245316113882806,
+       "backdoor_change_points": 1.364365971107545,
+       "misses_harmless": false
+      },
+      "6": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 2.4518079364068135,
+       "backdoor_change_points": -12.279293739967898,
+       "misses_harmless": false
+      },
+      "7": {
+       "detected": 24,
+       "scored": 100,
+       "f1_drop_points": 0.7781559033024577,
+       "backdoor_change_points": -3.4510433386837875,
+       "misses_harmless": false
+      },
+      "8": {
+       "detected": 88,
+       "scored": 100,
+       "f1_drop_points": 0.04367682525792116,
+       "backdoor_change_points": -1.60513643659711,
+       "misses_harmless": true
+      },
+      "9": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 3.121600528036972,
+       "backdoor_change_points": -8.025682182985555,
+       "misses_harmless": false
+      }
+     }
+    },
+    "inject": {
+     "detection": {
+      "rate": 0.15,
+      "k": 150,
+      "n": 1000,
+      "wilson95": [
+       0.12921007235961485,
+       0.17346865862237099
+      ]
+     },
+     "misses": 850,
+     "harmless_misses": 485,
+     "harmless_share_of_misses": 0.5705882352941176,
+     "f1_drop_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       1.357,
+       1.425,
+       1.18,
+       0.106,
+       0.057,
+       0.467,
+       -0.204,
+       0.527,
+       -0.067,
+       1.076
+      ],
+      "mean": 0.5924559496181225,
+      "sd": 0.6208392427964122,
+      "ci95": [
+       0.14833430978611084,
+       1.0365775894501343
+      ],
+      "ci90": [
+       0.23256710765918753,
+       0.9523447915770575
+      ]
+     },
+     "backdoor_change_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       -3.933,
+       -7.303,
+       -2.568,
+       10.674,
+       -2.568,
+       1.766,
+       -8.106,
+       -0.562,
+       -1.445,
+       -1.124
+      ],
+      "mean": -1.5168539325842698,
+      "sd": 5.22189722754561,
+      "ci95": [
+       -5.252374176578089,
+       2.2186663114095495
+      ],
+      "ci90": [
+       -4.543889623152287,
+       1.5101817579837478
+      ]
+     },
+     "per_run": {
+      "0": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 1.3567902936149179,
+       "backdoor_change_points": -3.93258426966292,
+       "misses_harmless": false
+      },
+      "1": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 1.4253879107194722,
+       "backdoor_change_points": -7.303370786516853,
+       "misses_harmless": false
+      },
+      "2": {
+       "detected": 3,
+       "scored": 100,
+       "f1_drop_points": 1.1798536475583543,
+       "backdoor_change_points": -2.5682182985553776,
+       "misses_harmless": true
+      },
+      "3": {
+       "detected": 35,
+       "scored": 100,
+       "f1_drop_points": 0.10600674530258924,
+       "backdoor_change_points": 10.674157303370785,
+       "misses_harmless": false
+      },
+      "4": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 0.05739027076461234,
+       "backdoor_change_points": -2.5682182985553776,
+       "misses_harmless": true
+      },
+      "5": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 0.4672680995034817,
+       "backdoor_change_points": 1.7656500802568225,
+       "misses_harmless": true
+      },
+      "6": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": -0.20402180903525968,
+       "backdoor_change_points": -8.10593900481541,
+       "misses_harmless": false
+      },
+      "7": {
+       "detected": 24,
+       "scored": 100,
+       "f1_drop_points": 0.5273789023413356,
+       "backdoor_change_points": -0.5617977528089874,
+       "misses_harmless": true
+      },
+      "8": {
+       "detected": 88,
+       "scored": 100,
+       "f1_drop_points": -0.06722870042938367,
+       "backdoor_change_points": -1.4446227929374,
+       "misses_harmless": true
+      },
+      "9": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 1.0757341358411054,
+       "backdoor_change_points": -1.1235955056179803,
+       "misses_harmless": true
+      }
+     }
+    },
+    "drop": {
+     "detection": {
+      "rate": 0.319,
+      "k": 319,
+      "n": 1000,
+      "wilson95": [
+       0.29085168363096553,
+       0.3485336029625757
+      ]
+     },
+     "misses": 681,
+     "harmless_misses": 336,
+     "harmless_share_of_misses": 0.4933920704845815,
+     "f1_drop_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       0.423,
+       -0.003,
+       1.647,
+       0.441,
+       -0.075,
+       0.282,
+       -0.642,
+       0.204,
+       0.311,
+       -0.666
+      ],
+      "mean": 0.19221794282203777,
+      "sd": 0.6496028902556089,
+      "ci95": [
+       -0.2724799708608159,
+       0.6569158565048914
+      ],
+      "ci90": [
+       -0.1843446450296,
+       0.5687805306736755
+      ]
+     },
+     "backdoor_change_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       0.161,
+       5.457,
+       -5.457,
+       -2.809,
+       0.0,
+       -0.562,
+       -4.735,
+       0.642,
+       1.766,
+       -6.982
+      ],
+      "mean": -1.2520064205457466,
+      "sd": 3.753945578513842,
+      "ci95": [
+       -3.9374173147736657,
+       1.4334044736821723
+      ],
+      "ci90": [
+       -3.4280981265773462,
+       0.9240852854858528
+      ]
+     },
+     "per_run": {
+      "0": {
+       "detected": 1,
+       "scored": 100,
+       "f1_drop_points": 0.42348212074617697,
+       "backdoor_change_points": 0.16051364365971266,
+       "misses_harmless": true
+      },
+      "1": {
+       "detected": 1,
+       "scored": 100,
+       "f1_drop_points": -0.0031747310374252713,
+       "backdoor_change_points": 5.457463884430175,
+       "misses_harmless": false
+      },
+      "2": {
+       "detected": 50,
+       "scored": 100,
+       "f1_drop_points": 1.6474457947401877,
+       "backdoor_change_points": -5.457463884430178,
+       "misses_harmless": false
+      },
+      "3": {
+       "detected": 85,
+       "scored": 100,
+       "f1_drop_points": 0.4410814577813005,
+       "backdoor_change_points": -2.808988764044945,
+       "misses_harmless": true
+      },
+      "4": {
+       "detected": 1,
+       "scored": 100,
+       "f1_drop_points": -0.07507384469259692,
+       "backdoor_change_points": 0.0,
+       "misses_harmless": true
+      },
+      "5": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": 0.28187292275835274,
+       "backdoor_change_points": -0.5617977528089901,
+       "misses_harmless": true
+      },
+      "6": {
+       "detected": 0,
+       "scored": 100,
+       "f1_drop_points": -0.6419128422950227,
+       "backdoor_change_points": -4.735152487961478,
+       "misses_harmless": false
+      },
+      "7": {
+       "detected": 78,
+       "scored": 100,
+       "f1_drop_points": 0.203698233098637,
+       "backdoor_change_points": 0.6420545746388451,
+       "misses_harmless": true
+      },
+      "8": {
+       "detected": 99,
+       "scored": 100,
+       "f1_drop_points": 0.3110640113787311,
+       "backdoor_change_points": 1.7656500802568253,
+       "misses_harmless": true
+      },
+      "9": {
+       "detected": 4,
+       "scored": 100,
+       "f1_drop_points": -0.6663036942579637,
+       "backdoor_change_points": -6.982343499197433,
+       "misses_harmless": false
+      }
+     }
+    },
+    "adaptive": {
+     "detection": {
+      "rate": 0.0,
+      "k": 0,
+      "n": 990,
+      "wilson95": [
+       0.0,
+       0.0038652632640422202
+      ]
+     },
+     "misses": 990,
+     "harmless_misses": 198,
+     "harmless_share_of_misses": 0.2,
+     "f1_drop_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       2.721,
+       2.114,
+       1.931,
+       1.045,
+       1.049,
+       1.447,
+       2.798,
+       0.789,
+       0.297,
+       2.76
+      ],
+      "mean": 1.6951798836325604,
+      "sd": 0.9013295448726094,
+      "ci95": [
+       1.0504075691525432,
+       2.3399521981125777
+      ],
+      "ci90": [
+       1.1726960846599033,
+       2.2176636826052176
+      ]
+     },
+     "backdoor_change_points": {
+      "seeds": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "per_seed_points": [
+       -2.809,
+       -0.161,
+       -2.327,
+       -6.1,
+       -6.26,
+       7.945,
+       -16.693,
+       -3.291,
+       -1.926,
+       -8.026
+      ],
+      "mean": -3.964686998394863,
+      "sd": 6.26531173555501,
+      "ci95": [
+       -8.44662101648319,
+       0.517247019693464
+      ],
+      "ci90": [
+       -7.596570470941435,
+       -0.3328035258482913
+      ]
+     },
+     "per_run": {
+      "0": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": 2.7209631387799305,
+       "backdoor_change_points": -2.8089887640449422,
+       "misses_harmless": false
+      },
+      "1": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": 2.113841863350796,
+       "backdoor_change_points": -0.16051364365970988,
+       "misses_harmless": false
+      },
+      "2": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": 1.9312204186053894,
+       "backdoor_change_points": -2.32744783306581,
+       "misses_harmless": true
+      },
+      "3": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": 1.045179106398264,
+       "backdoor_change_points": -6.099518459069023,
+       "misses_harmless": false
+      },
+      "4": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": 1.0486393022418217,
+       "backdoor_change_points": -6.260032102728733,
+       "misses_harmless": false
+      },
+      "5": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": 1.4474483193038568,
+       "backdoor_change_points": 7.9454253611556975,
+       "misses_harmless": false
+      },
+      "6": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": 2.7984270358088814,
+       "backdoor_change_points": -16.693418940609952,
+       "misses_harmless": false
+      },
+      "7": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": 0.7894001681103546,
+       "backdoor_change_points": -3.2905296950240777,
+       "misses_harmless": false
+      },
+      "8": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": 0.2968404193325114,
+       "backdoor_change_points": -1.9261637239165323,
+       "misses_harmless": true
+      },
+      "9": {
+       "detected": 0,
+       "scored": 99,
+       "f1_drop_points": 2.7598390643937987,
+       "backdoor_change_points": -8.025682182985555,
+       "misses_harmless": false
+      }
+     },
+     "largest_undetected_f1_drop_points": 2.7984270358088814,
+     "largest_undetected_backdoor_change_points": 16.693418940609952
+    }
+   },
+   "false_alarms": {
+    "pooled_all_runs": {
+     "rate": 0.13272972972972974,
+     "k": 4911,
+     "n": 37000,
+     "wilson95": [
+      0.12931075301298983,
+      0.13622496088849206
+     ]
+    },
+    "tampering_runs_only": {
+     "rate": 0.13036666666666666,
+     "k": 3911,
+     "n": 30000,
+     "wilson95": [
+      0.12660382004668974,
+      0.13422416325025593
+     ]
+    },
+    "without_tampering": {
+     "rate": 0.14285714285714285,
+     "k": 1000,
+     "n": 7000,
+     "wilson95": [
+      0.13485552573000675,
+      0.15125053058860155
+     ]
+    },
+    "per_gateway": {
+     "0": {
+      "rate": 0.4232727272727273,
+      "k": 2328,
+      "n": 5500,
+      "wilson95": [
+       0.4102731643453287,
+       0.436379395270451
+      ]
+     },
+     "1": {
+      "rate": 0.11733333333333333,
+      "k": 528,
+      "n": 4500,
+      "wilson95": [
+       0.10825540247742592,
+       0.1270640395050076
+      ]
+     },
+     "2": {
+      "rate": 0.3425,
+      "k": 2055,
+      "n": 6000,
+      "wilson95": [
+       0.33059674694676316,
+       0.3546048006050662
+      ]
+     },
+     "3": {
+      "rate": 0.0,
+      "k": 0,
+      "n": 4000,
+      "wilson95": [
+       5.421010862427522e-20,
+       0.0009594433048228969
+      ]
+     },
+     "4": {
+      "rate": 0.0,
+      "k": 0,
+      "n": 5500,
+      "wilson95": [
+       -5.421010862427522e-20,
+       0.0006979595815023367
+      ]
+     },
+     "5": {
+      "rate": 0.0,
+      "k": 0,
+      "n": 5500,
+      "wilson95": [
+       -5.421010862427522e-20,
+       0.0006979595815023367
+      ]
+     },
+     "6": {
+      "rate": 0.0,
+      "k": 0,
+      "n": 6000,
+      "wilson95": [
+       0.0,
+       0.0006398334978705092
+      ]
+     }
+    }
+   },
+   "reference_f0": {
+    "f1": {
+     "mean": 0.5080630338075557,
+     "sd": 0.012058019058661943,
+     "n": 10
+    },
+    "backdoor": {
+     "mean": 0.23836276083467095,
+     "sd": 0.04260084383917914,
+     "n": 10
+    }
+   }
+  }
+ },
+ "h4": {
+  "detection_ok_per_type": {
+   "scale": true,
+   "signflip": false,
+   "inject": false,
+   "drop": false
+  },
+  "false_alarms_ok": true,
+  "holds": false,
+  "rule": "each of scale, sign flip, injection, drop >= 90% detection AND pooled false alarms <= 5% (our check; DL-23, DL-44, DL-45 (4)); fallback: report it and compare with HFLMLD"
+ }
+}

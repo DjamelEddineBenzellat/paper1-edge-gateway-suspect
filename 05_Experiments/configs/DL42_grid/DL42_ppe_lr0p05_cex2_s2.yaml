@@ -1,0 +1,41 @@
+# DL-42 grid config, written by make_dl42_configs.py. Do not edit by hand.
+experiment: DL-42 grid
+run_id: DL42_ppe_lr0p05_cex2_s2
+configuration: P-PE
+mode: ppe
+seed: 2
+settings:
+  lr: 0.05
+  c_ex: 2.0
+  eps0: 8.0
+  rounds: 100
+  cloud_eta: 1.0
+canaries: true
+fold10: none
+base_config: ../G0a.yaml
+rules:
+- DL-34
+- DL-36
+- DL-37
+- DL-38
+- DL-39
+- DL-40
+- DL-42
+code_commit: 57d097cc7105c38e20fdde1768eb2e2bb3e6d13e
+versions:
+  cryptography: 50.0.2
+  flwr: 1.43.0
+  numpy: 2.5.4
+  opacus: 1.6.0
+  scikit-learn: 1.9.1
+  scipy: 1.18.1
+  torch: 2.15.0+cpu
+sources_sha256:
+  05_Experiments/results/G0-14/JOB_20261115_G0-14_grid-dl36/selection_dl36.json: 4dd9312a89837f3ffde8e7eaabf9e94276a7257134baee8133150279825c89a3
+  05_Experiments/results/M2-04/JOB_20261116_M2-04_baseline-grid/selection_baselines.json: e931f9d1c9b05b69d145271b77eb0c97d572b1da0ad27be1225d326a26268f8c
+  E1_ppe_s2.yaml: 023cb0d53ec92b5d6518f4c6c82c7293ca24269a5fda71f4c45334278e8d6a1d
+  selection_dl40.json: 4202914c73f177be54fdd7ab836a169047278ed91e776525d77d2f02f6ee0bea
+dl40_selection:
+  file: selection_dl40.json
+  cloud_eta: 1.0
+  smoke: false

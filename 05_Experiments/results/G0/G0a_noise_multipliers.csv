@@ -1,0 +1,4 @@
+epsilon,delta,q,total_steps,noise_multiplier_z,epsilon_check,accountant,accountant_version,created
+1.0,1e-05,0.226675,500,20.625,0.9978,opacus-rdp,1.6.0,2026-11-12T11:26:45
+3.0,1e-05,0.226675,500,7.6758,2.9943,opacus-rdp,1.6.0,2026-11-12T11:26:45
+8.0,1e-05,0.226675,500,3.3545,7.9939,opacus-rdp,1.6.0,2026-11-12T11:26:46

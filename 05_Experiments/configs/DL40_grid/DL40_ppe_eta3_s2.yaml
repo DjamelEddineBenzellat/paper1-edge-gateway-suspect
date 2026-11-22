@@ -1,0 +1,35 @@
+# DL-40 grid config, written by make_dl40_configs.py. Do not edit by hand.
+experiment: DL-40 grid
+run_id: DL40_ppe_eta3_s2
+configuration: P-PE
+mode: ppe
+seed: 2
+settings:
+  lr: 0.01
+  c_ex: 2.0
+  eps0: 8.0
+  rounds: 100
+  cloud_eta: 3.0
+canaries: true
+fold10: none
+base_config: ../G0a.yaml
+rules:
+- DL-34
+- DL-36
+- DL-37
+- DL-38
+- DL-39
+- DL-40
+code_commit: 6bbf6538675bc7e5b595927a6986b7c1739bdc0e
+versions:
+  cryptography: 50.0.2
+  flwr: 1.43.0
+  numpy: 2.5.4
+  opacus: 1.6.0
+  scikit-learn: 1.9.1
+  scipy: 1.18.1
+  torch: 2.15.0+cpu
+sources_sha256:
+  05_Experiments/results/G0-14/JOB_20261115_G0-14_grid-dl36/selection_dl36.json: 4dd9312a89837f3ffde8e7eaabf9e94276a7257134baee8133150279825c89a3
+  05_Experiments/results/M2-04/JOB_20261116_M2-04_baseline-grid/selection_baselines.json: e931f9d1c9b05b69d145271b77eb0c97d572b1da0ad27be1225d326a26268f8c
+  E1_ppe_s2.yaml: 14e63bc985860590c4f9735b50f28809aed488da342143e3935d7983e9c8ecaa

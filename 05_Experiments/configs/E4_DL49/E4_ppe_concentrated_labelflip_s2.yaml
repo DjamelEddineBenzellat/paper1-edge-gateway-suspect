@@ -1,0 +1,54 @@
+# E4 config (DL-49), written by make_e4_configs.py --dl49. Do not edit by hand.
+experiment: E4 (DL-49)
+run_id: E4_ppe_concentrated_labelflip_s2
+configuration: P-PE
+mode: ppe
+seed: 2
+settings:
+  lr: 0.01
+  c_ex: 2.0
+  eps0: 8.0
+  rounds: 100
+  cloud_eta: 1.0
+  attack:
+    kind: concentrated_labelflip
+    f: null
+    norm: 15.313606071472167
+    poison_share: 0.5
+canaries: true
+fold10: sealed (DL-39)
+base_config: ../G0a.yaml
+rules:
+- DL-34
+- DL-36
+- DL-37
+- DL-38
+- DL-39
+- DL-40
+- DL-41
+- DL-42
+- DL-43
+- DL-44
+- DL-47
+- DL-48
+- DL-49
+code_commit: 8b29bfde68e504d8a1f55ec493d00b8bfcd35d34
+versions:
+  cryptography: 50.0.2
+  flwr: 1.43.0
+  numpy: 2.5.4
+  opacus: 1.6.0
+  scikit-learn: 1.9.1
+  scipy: 1.18.1
+  torch: 2.15.0+cpu
+sources_sha256:
+  05_Experiments/results/G0-14/JOB_20261115_G0-14_grid-dl36/selection_dl36.json: 4dd9312a89837f3ffde8e7eaabf9e94276a7257134baee8133150279825c89a3
+  05_Experiments/results/M2-04/JOB_20261116_M2-04_baseline-grid/selection_baselines.json: e931f9d1c9b05b69d145271b77eb0c97d572b1da0ad27be1225d326a26268f8c
+  E1_ppe_s2.yaml: 023cb0d53ec92b5d6518f4c6c82c7293ca24269a5fda71f4c45334278e8d6a1d
+  selection_dl40.json: 4202914c73f177be54fdd7ab836a169047278ed91e776525d77d2f02f6ee0bea
+  selection_dl42.json: 27358fd3dad973df1339d214ea8085bd3a76bd5b567a350fe021910c10a72af8
+dl40_selection:
+  file: selection_dl40.json
+  cloud_eta: 1.0
+  smoke: false
+final_configuration: E1 settings

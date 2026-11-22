@@ -1,0 +1,34 @@
+# DL-42 grid config, written by make_dl42_configs.py. Do not edit by hand.
+experiment: DL-42 grid
+run_id: DL42_ptg_lr0p1_cex1_s0
+configuration: P-TG
+mode: ptg
+seed: 0
+settings:
+  lr: 0.1
+  c_ex: 1.0
+  eps0: 8.0
+  rounds: 100
+canaries: true
+fold10: none
+base_config: ../G0a.yaml
+rules:
+- DL-34
+- DL-36
+- DL-37
+- DL-38
+- DL-39
+- DL-42
+code_commit: 57d097cc7105c38e20fdde1768eb2e2bb3e6d13e
+versions:
+  cryptography: 50.0.2
+  flwr: 1.43.0
+  numpy: 2.5.4
+  opacus: 1.6.0
+  scikit-learn: 1.9.1
+  scipy: 1.18.1
+  torch: 2.15.0+cpu
+sources_sha256:
+  05_Experiments/results/G0-14/JOB_20261115_G0-14_grid-dl36/selection_dl36.json: 4dd9312a89837f3ffde8e7eaabf9e94276a7257134baee8133150279825c89a3
+  05_Experiments/results/M2-04/JOB_20261116_M2-04_baseline-grid/selection_baselines.json: e931f9d1c9b05b69d145271b77eb0c97d572b1da0ad27be1225d326a26268f8c
+  E1_ptg_s0.yaml: 19062b65f3714df8fe316fca35cbb7c629590117a22563ba36f21f66d65c9ebf

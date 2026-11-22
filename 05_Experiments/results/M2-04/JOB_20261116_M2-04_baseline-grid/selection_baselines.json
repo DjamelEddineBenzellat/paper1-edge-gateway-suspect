@@ -1,0 +1,178 @@
+{
+ "rules": "DL-37 point 3, DL-36 score (macro-F1, thresholds tuned on fold 9), seed 0",
+ "centralized": {
+  "lr": 0.01,
+  "epoch": 50,
+  "macro_f1_tuned": 0.7490309412019663,
+  "macro_auroc": 0.9257611107196035,
+  "file": "centralized_grid_lr0.01_s0.json"
+ },
+ "centralized_grid": [
+  {
+   "file": "centralized_grid_lr0.01_s0.json",
+   "lr": 0.01,
+   "epoch": 50,
+   "macro_f1_tuned": 0.7490309412019663,
+   "macro_auroc": 0.9257611107196035,
+   "macro_f1_0.5": 0.6958512359891985
+  },
+  {
+   "file": "centralized_grid_lr0.05_s0.json",
+   "lr": 0.05,
+   "epoch": 25,
+   "macro_f1_tuned": 0.7486627346117343,
+   "macro_auroc": 0.9248866710429663,
+   "macro_f1_0.5": 0.7137783029284865
+  },
+  {
+   "file": "centralized_grid_lr0.1_s0.json",
+   "lr": 0.1,
+   "epoch": 25,
+   "macro_f1_tuned": 0.7471532226163861,
+   "macro_auroc": 0.9254362254563959,
+   "macro_f1_0.5": 0.7110605391339206
+  },
+  {
+   "file": "centralized_grid_lr0.1_s0.json",
+   "lr": 0.1,
+   "epoch": 50,
+   "macro_f1_tuned": 0.7459710159755341,
+   "macro_auroc": 0.92127746564647,
+   "macro_f1_0.5": 0.7002883906248845
+  },
+  {
+   "file": "centralized_grid_lr0.05_s0.json",
+   "lr": 0.05,
+   "epoch": 50,
+   "macro_f1_tuned": 0.7446706964930938,
+   "macro_auroc": 0.9233020998476669,
+   "macro_f1_0.5": 0.7122831184551897
+  },
+  {
+   "file": "centralized_grid_lr0.01_s0.json",
+   "lr": 0.01,
+   "epoch": 25,
+   "macro_f1_tuned": 0.7437998359020551,
+   "macro_auroc": 0.9204409322545614,
+   "macro_f1_0.5": 0.695506200217263
+  },
+  {
+   "file": "centralized_grid_lr0.01_s0.json",
+   "lr": 0.01,
+   "epoch": 100,
+   "macro_f1_tuned": 0.7366633086171703,
+   "macro_auroc": 0.9184154988733692,
+   "macro_f1_0.5": 0.70735060126324
+  },
+  {
+   "file": "centralized_grid_lr0.05_s0.json",
+   "lr": 0.05,
+   "epoch": 10,
+   "macro_f1_tuned": 0.7342970687868744,
+   "macro_auroc": 0.9131209517310811,
+   "macro_f1_0.5": 0.6360084882611995
+  },
+  {
+   "file": "centralized_grid_lr0.1_s0.json",
+   "lr": 0.1,
+   "epoch": 10,
+   "macro_f1_tuned": 0.7327147188533873,
+   "macro_auroc": 0.9144231594961786,
+   "macro_f1_0.5": 0.6428430903427598
+  },
+  {
+   "file": "centralized_grid_lr0.05_s0.json",
+   "lr": 0.05,
+   "epoch": 100,
+   "macro_f1_tuned": 0.7215125597316631,
+   "macro_auroc": 0.9066630888843387,
+   "macro_f1_0.5": 0.6896627688544019
+  },
+  {
+   "file": "centralized_grid_lr0.1_s0.json",
+   "lr": 0.1,
+   "epoch": 100,
+   "macro_f1_tuned": 0.7202178181606472,
+   "macro_auroc": 0.9072051002387088,
+   "macro_f1_0.5": 0.6907138299052609
+  },
+  {
+   "file": "centralized_grid_lr0.01_s0.json",
+   "lr": 0.01,
+   "epoch": 10,
+   "macro_f1_tuned": 0.7172944909284423,
+   "macro_auroc": 0.9038833135326818,
+   "macro_f1_0.5": 0.6147915422268743
+  }
+ ],
+ "fedavg": {
+  "lr": 0.1,
+  "macro_f1_tuned": 0.6730057164835137,
+  "macro_auroc": 0.8748537448532506,
+  "file": "fedavg_grid_lr0.1_s0.json"
+ },
+ "fedavg_grid": [
+  {
+   "file": "fedavg_grid_lr0.1_s0.json",
+   "lr": 0.1,
+   "macro_f1_tuned": 0.6730057164835137,
+   "macro_auroc": 0.8748537448532506,
+   "macro_f1_0.5": 0.540356160960253,
+   "rounds": 100,
+   "edge_iterations": 1
+  },
+  {
+   "file": "fedavg_grid_lr0.05_s0.json",
+   "lr": 0.05,
+   "macro_f1_tuned": 0.6578731314263128,
+   "macro_auroc": 0.8672191074482501,
+   "macro_f1_0.5": 0.5005237324509572,
+   "rounds": 100,
+   "edge_iterations": 1
+  },
+  {
+   "file": "fedavg_grid_lr0.01_s0.json",
+   "lr": 0.01,
+   "macro_f1_tuned": 0.5876373137602685,
+   "macro_auroc": 0.8172477043157486,
+   "macro_f1_0.5": 0.25830303270109084,
+   "rounds": 100,
+   "edge_iterations": 1
+  }
+ ],
+ "hierfavg": {
+  "lr": 0.1,
+  "macro_f1_tuned": 0.6726901902030444,
+  "macro_auroc": 0.874373512892792,
+  "file": "hierfavg_grid_lr0.1_s0.json"
+ },
+ "hierfavg_grid": [
+  {
+   "file": "hierfavg_grid_lr0.1_s0.json",
+   "lr": 0.1,
+   "macro_f1_tuned": 0.6726901902030444,
+   "macro_auroc": 0.874373512892792,
+   "macro_f1_0.5": 0.5427480119164778,
+   "rounds": 100,
+   "edge_iterations": 5
+  },
+  {
+   "file": "hierfavg_grid_lr0.05_s0.json",
+   "lr": 0.05,
+   "macro_f1_tuned": 0.6569316908102981,
+   "macro_auroc": 0.8668141955486,
+   "macro_f1_0.5": 0.4990956106232295,
+   "rounds": 100,
+   "edge_iterations": 5
+  },
+  {
+   "file": "hierfavg_grid_lr0.01_s0.json",
+   "lr": 0.01,
+   "macro_f1_tuned": 0.5874652647719429,
+   "macro_auroc": 0.8170010316420117,
+   "macro_f1_0.5": 0.2576868695332455,
+   "rounds": 100,
+   "edge_iterations": 5
+  }
+ ]
+}

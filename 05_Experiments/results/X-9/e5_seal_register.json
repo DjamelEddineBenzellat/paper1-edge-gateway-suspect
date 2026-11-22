@@ -1,0 +1,1085 @@
+{
+ "note": "hashes only; no sealed file was read",
+ "seal_register": {
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_adaptive_s0.fold10.sealed.json": {
+   "sha256": "956bd21780d44b7ffdc9b3429861bcdbbc2d74e40f23e0dd3dc45f507ade9d74",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_adaptive_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_adaptive_s1.fold10.sealed.json": {
+   "sha256": "b472ae504aafaff96fb5f1b21118a21e8245dfdb066a26283e644d8ef6ab6ca4",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_adaptive_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_adaptive_s2.fold10.sealed.json": {
+   "sha256": "8fe77ed280c04239a35c859eaf0d26793f8c56f23d69608877b13d5392593acf",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_adaptive_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_adaptive_s3.fold10.sealed.json": {
+   "sha256": "3c7b7398b75dba7edff5fb084f63c435b1b49eb96051bbac9d0da5fa85bc937d",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_adaptive_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_adaptive_s4.fold10.sealed.json": {
+   "sha256": "9cda7b16af64eeae26556e23e6ca4d92da1bc4a3eb5c7647c0ca67490de81eee",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_adaptive_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_adaptive_s5.fold10.sealed.json": {
+   "sha256": "1bcb1d13bd0599f995947cf04a6f9d554d062850071a2bab726553e0be4da844",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_adaptive_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_adaptive_s6.fold10.sealed.json": {
+   "sha256": "89ce02dba60f4a2a46c644a8d90b30f1d69b969e261c3086356f866affb7e492",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_adaptive_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_adaptive_s7.fold10.sealed.json": {
+   "sha256": "ba761638ff01563b5f7a4cea63894ae6cf25cfd41ea4e80d7c15b23d977677b6",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_adaptive_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_adaptive_s8.fold10.sealed.json": {
+   "sha256": "34080b75921ad255b77c550e95a99de7810e73ed826edf54cb079a0d745dda3d",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_adaptive_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_adaptive_s9.fold10.sealed.json": {
+   "sha256": "ee08a8070d7c446895b7f4684db0a65605e6c4337ef44308c7a662403b9bee66",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_adaptive_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_drop_s0.fold10.sealed.json": {
+   "sha256": "ea1d316d65d13328ec122ebfcdde40e99cbdd6798d3f074be9620aff18707d2d",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_drop_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_drop_s1.fold10.sealed.json": {
+   "sha256": "c58a1d8922baab3ea0dd074e473d73afb69a676196ba754418ecdd02c20c2346",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_drop_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_drop_s2.fold10.sealed.json": {
+   "sha256": "10e5d94cb88086a05418f83c101f9e56a7a4705c7e3be38411e0220c031d82bc",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_drop_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_drop_s3.fold10.sealed.json": {
+   "sha256": "ed44d05468be7b69bdf42e234bdaa5406b73c31c4cd07bae5a09adf1d7e64c51",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_drop_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_drop_s4.fold10.sealed.json": {
+   "sha256": "0bbc9c17fb23cad1b80209ed8416a1fd6e40880fdfa5c9190f9c45a6df012d84",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_drop_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_drop_s5.fold10.sealed.json": {
+   "sha256": "881defca33cec522e81f61951f49e74d15744fe267f376df856db4f96a6615f0",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_drop_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_drop_s6.fold10.sealed.json": {
+   "sha256": "4b38d58ce752c98934b589bca6ed16515ce5131039b8809d9a98eafff7eb4085",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_drop_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_drop_s7.fold10.sealed.json": {
+   "sha256": "41a58c45af5fb7fd7b8e32aa3944ce17ab0168ab8bb1d2843dd9f9d0a2b0ac17",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_drop_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_drop_s8.fold10.sealed.json": {
+   "sha256": "b7decdb33d096735b3e4e46b693437137b9a9e66d01422605acb93608d980ea4",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_drop_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_drop_s9.fold10.sealed.json": {
+   "sha256": "5bd477b766c40d6029f8149c0792df9664b4aab4bbf75bdc77aa76464e29de58",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_drop_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_inject_s0.fold10.sealed.json": {
+   "sha256": "799cfa5dea689574118055b4076768a47ddb9038d80ae2f4982a4d3820e9f546",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_inject_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_inject_s1.fold10.sealed.json": {
+   "sha256": "fa7771c43c07745d2eccf1d8fb059d38e27c19290f1a5bec253804c3cae02101",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_inject_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_inject_s2.fold10.sealed.json": {
+   "sha256": "6bdf1f2aa5d461fabe86bdf878b72031fbf1da911a41674004cb6571a8f20b21",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_inject_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_inject_s3.fold10.sealed.json": {
+   "sha256": "b23ff436538619f6290d44f31182be9f65c5563ab94f089f0911d5cbe475007f",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_inject_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_inject_s4.fold10.sealed.json": {
+   "sha256": "b534a0da3c26619fc30608698effd7af693086b1631c72ec4902a0e9d8b82c87",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_inject_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_inject_s5.fold10.sealed.json": {
+   "sha256": "155fd732b84e8bafc18e40326200f28bc71a9a27a8f5d29c785112af30279b51",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_inject_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_inject_s6.fold10.sealed.json": {
+   "sha256": "389785f1d97c76bd162a03c5bec4bddbebdd25d6f322394a1dda23bb773826f9",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_inject_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_inject_s7.fold10.sealed.json": {
+   "sha256": "f8a51ec542bb44d5898c2db856249c0841f83aa5cb81a88a23e88366de5ea541",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_inject_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_inject_s8.fold10.sealed.json": {
+   "sha256": "ad04fd0088eff1e38cedb7facda51314f8d7b357c4af7d270998b4c9e2059fce",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_inject_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_inject_s9.fold10.sealed.json": {
+   "sha256": "4b2312d7a9f3ec3e88b331b97c22921ba622ad1db2f8454c304d779e10bd6913",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_inject_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_none_s0.fold10.sealed.json": {
+   "sha256": "247ffa5f70ddac9d1ba594652c2e0b5cf8f728a71d45077cabd584c65d56852f",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_none_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_none_s1.fold10.sealed.json": {
+   "sha256": "09013914bdec89527a5aa60b94fc1f0aac51a250d01b489463d121cf5beda6a0",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_none_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_none_s2.fold10.sealed.json": {
+   "sha256": "fedb9d659d8d507297a08cb131104ba56ef529df37817153d939017859af3ad6",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_none_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_none_s3.fold10.sealed.json": {
+   "sha256": "2115ac7f3dbe528e31b15e8937ef9083b22c7981cbad220599869694603586d2",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_none_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_none_s4.fold10.sealed.json": {
+   "sha256": "006a45ca9064fa3a925d77e94a8964bf7d088b2f70e234e26be9e014746cea8e",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_none_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_none_s5.fold10.sealed.json": {
+   "sha256": "fc1eec32e357e48911958ab3625ee12f3491bc3301c1f924e0762794199be51b",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_none_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_none_s6.fold10.sealed.json": {
+   "sha256": "444af1013d19b848f66b03567972c62ef8c2ddb5b999c6bd6fe25f3f8c320fef",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_none_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_none_s7.fold10.sealed.json": {
+   "sha256": "a0d6ef1c1d3daa10c5788a513075c7f76daa081ac1262567ad7d1448f83b9287",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_none_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_none_s8.fold10.sealed.json": {
+   "sha256": "e899013f7df73496607b5b50f8175c8b065dc472a1cba15f33f2b18660f683cb",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_none_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_none_s9.fold10.sealed.json": {
+   "sha256": "c6d19f933e9fec45189f63c4f23208b4d6e49e6d6d38c136d0c4260b4376ba0d",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_none_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_scale_s0.fold10.sealed.json": {
+   "sha256": "604b95a2558e3509a0e293e554268f42bd3ab47b43e515f72efc6663bc5d549f",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_scale_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_scale_s1.fold10.sealed.json": {
+   "sha256": "5ee8726d8673f533207baef39ce38b2f55a26532960c78cccfffe5ef03a49319",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_scale_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_scale_s2.fold10.sealed.json": {
+   "sha256": "13194f769c289e290ea7159f57efd94c1537eace63b87bac43fe0d1219b855f1",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_scale_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_scale_s3.fold10.sealed.json": {
+   "sha256": "b694dadcdf57492a7e96c9313d69838de85e221fe12e9f48675600801296869b",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_scale_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_scale_s4.fold10.sealed.json": {
+   "sha256": "8a299a59f6df9cfb0090f2f8a1770bc13955cb0fd6ae3b8dfa8139ecd1ecafc1",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_scale_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_scale_s5.fold10.sealed.json": {
+   "sha256": "bc49c8967789c1d488f4366589556544b9e2086c7822caefa035b16b50f44c5b",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_scale_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_scale_s6.fold10.sealed.json": {
+   "sha256": "90b0abb6eacc33ca13999e6c74c8e52fc175360b49f26116cc9258898e07fe8f",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_scale_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_scale_s7.fold10.sealed.json": {
+   "sha256": "a84328a1314a8a392bfabb961611a82ae32a0e8d30b0c78db4136037ae9da85b",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_scale_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_scale_s8.fold10.sealed.json": {
+   "sha256": "104d1f689f26406d6ed4856ed375579c7eb7abc2b8faade513719778875e0abb",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_scale_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_scale_s9.fold10.sealed.json": {
+   "sha256": "2689a196f028cc04c89dcfdbd1b160f1b624e984b530dc3538834e00747f4894",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_scale_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_signflip_s0.fold10.sealed.json": {
+   "sha256": "b3c26041ebed48dbd7c8d6a683576c21b7f9f311ba3a6d5d7fb4af2b00e2ee00",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_signflip_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_signflip_s1.fold10.sealed.json": {
+   "sha256": "842a10b86db3dc3de5355170886fa20866db937da77f29ba98f32a46069b9f77",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_signflip_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_signflip_s2.fold10.sealed.json": {
+   "sha256": "3a931121b375dc12721063eb79336d2557d24164fcf7f3b387d02397e3538c90",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_signflip_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_signflip_s3.fold10.sealed.json": {
+   "sha256": "1a16f8702467c7f26db1ca8e5d674f55b7da1f588195a84840bd8601caf645ed",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_signflip_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_signflip_s4.fold10.sealed.json": {
+   "sha256": "600fa41369d1d8bcc786a8818392b87c26d3ae696bc7748a00212f7df23dc091",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_signflip_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_signflip_s5.fold10.sealed.json": {
+   "sha256": "ed2795d0c3d48cd7acd33123d35e83ea0672ad0869c2ca0e81de5044611560d2",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_signflip_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_signflip_s6.fold10.sealed.json": {
+   "sha256": "e739e4870e99da2ab24c26115067d0a7c78accbbe3f00e28b397294a8a6535c9",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_signflip_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_signflip_s7.fold10.sealed.json": {
+   "sha256": "da75d48a03b4b6e1a9bc7e4c96edc801e4cc4a2fc988db0aa79d4f8ac28c0612",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_signflip_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_signflip_s8.fold10.sealed.json": {
+   "sha256": "34dd95c6aabd58d1a8a61ca7069606222778069d83ae89fdf6b488eaabad6db0",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_signflip_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_cloud_signflip_s9.fold10.sealed.json": {
+   "sha256": "4d75a6bff86dcf4b004c8ebc69710a5dd2ce7e1555e5a65faab2785f88a30a80",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_cloud_signflip_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_adaptive_s0.fold10.sealed.json": {
+   "sha256": "f0bd12b23d406c23295674c4179cbe7a27289d191fd866a1863acdf219fe2462",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_adaptive_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_adaptive_s1.fold10.sealed.json": {
+   "sha256": "a83ad36519cee7877633b54da109913a6504f5bccf003370ae0fb90a77ef5deb",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_adaptive_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_adaptive_s2.fold10.sealed.json": {
+   "sha256": "d7e18ea084a3bbdb4f912891bfa26f32feea053df24bdb0daf4dc9ee25ca2791",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_adaptive_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_adaptive_s3.fold10.sealed.json": {
+   "sha256": "f0aa451f7dbf028d3cd2b30bff251e341d218b46aca80c8a7f3f75e71bc3e34b",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_adaptive_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_adaptive_s4.fold10.sealed.json": {
+   "sha256": "67e1933bdd6a13036d1f1b891d1c99047dbbac078fb2d1fb41a4291b6388a61f",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_adaptive_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_adaptive_s5.fold10.sealed.json": {
+   "sha256": "ee797aa1ec87ca9b47ee30f73c4ac597f3127bafcde1e139cb5951acb64c91b7",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_adaptive_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_adaptive_s6.fold10.sealed.json": {
+   "sha256": "f59c04eff55bb78741499e317f89783eb3b7cb54553a52a62a6d6a44dcda4897",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_adaptive_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_adaptive_s7.fold10.sealed.json": {
+   "sha256": "2e2356ae00fa6795a7f999c08d5fb03dc3ffb36dffd76684ad9d01f5a993a0a8",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_adaptive_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_adaptive_s8.fold10.sealed.json": {
+   "sha256": "4a4647219452175de9344a74e571d509eb07f0b83bedef7ff5ea204b69e70979",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_adaptive_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_adaptive_s9.fold10.sealed.json": {
+   "sha256": "68b3e1b5fad0ca4d8f825818da95eaed6df5f1870a35133657478e7f55c2e053",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_adaptive_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_drop_s0.fold10.sealed.json": {
+   "sha256": "bc68cee6d208dd93b2690406240036741ed4043bb2f1fa03f3cae2b9add958cb",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_drop_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_drop_s1.fold10.sealed.json": {
+   "sha256": "685cfecceaecfce0ca5dab95b513dbc65904c0f13a0e0999c77cc3c76f25c5ff",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_drop_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_drop_s2.fold10.sealed.json": {
+   "sha256": "5a09c8ae68a1e819802fe27ab6e2a7027ec79b8ecd77f8b6a8b1a9d8b3dc48d5",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_drop_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_drop_s3.fold10.sealed.json": {
+   "sha256": "d9f4e893591dc2a231b297680202bd4b89727df6285e32faa1eaa88216f313e2",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_drop_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_drop_s4.fold10.sealed.json": {
+   "sha256": "4d2c59f7b40ac9b4d20201c448db0895299ab767ee418f94d87d0c85963723aa",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_drop_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_drop_s5.fold10.sealed.json": {
+   "sha256": "f7cf85d36540a0bdb005b153aac15bdc468efce5ca9ace8d9cdefdefbee71b7e",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_drop_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_drop_s6.fold10.sealed.json": {
+   "sha256": "6914f6794c13fea105615a262a5354d37a7b94a26f1248d295cbf16b5b419e44",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_drop_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_drop_s7.fold10.sealed.json": {
+   "sha256": "06b4858d4d40d97042dc650dd5b2b54dbec43a35ee8e1f929d68d0d8516dd8f6",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_drop_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_drop_s8.fold10.sealed.json": {
+   "sha256": "d659b1e1fc0fdd4ecca5e1db9b06d3ddcd03cd90c30e81cdb2ecc4d377d8a908",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_drop_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_drop_s9.fold10.sealed.json": {
+   "sha256": "0e3a9343c55fd1a2728dc8a3fad6568fe2f89433f565869813495bef911346a7",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_drop_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_inject_s0.fold10.sealed.json": {
+   "sha256": "026d8f17403b21cf394629b2cd958ad529adc7eb55eeb20446a54dddca3ac803",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_inject_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_inject_s1.fold10.sealed.json": {
+   "sha256": "8fe6d83d3ccf965eca463a7f4bc1aed94979dcfc26cdde72750676501100b4ac",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_inject_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_inject_s2.fold10.sealed.json": {
+   "sha256": "14460ce549651f87a712757cdbef2e6745317306ead1ff53b73101d93c0d04d2",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_inject_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_inject_s3.fold10.sealed.json": {
+   "sha256": "f87264d9274ed2a2fa490d0dcbb6faf14264b3ef9e6924151dba63d8863d8634",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_inject_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_inject_s4.fold10.sealed.json": {
+   "sha256": "06b6d6d1c8c87e578423401fcee08df6da13c3c240b81fa1199dd452011e0d25",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_inject_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_inject_s5.fold10.sealed.json": {
+   "sha256": "2cfc9db974af5565ec7e33f4b0b420e03b25919bf8478ff75a434724cafce2d9",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_inject_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_inject_s6.fold10.sealed.json": {
+   "sha256": "031ba309bfe19f64b2a856fe392e2dee2afbb0c1b0e705b83f42dd33eff5a33b",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_inject_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_inject_s7.fold10.sealed.json": {
+   "sha256": "5e91d8bc64e998f5bdf09a71a8adfd24d7fdf639b3964c86a626685d2ca19722",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_inject_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_inject_s8.fold10.sealed.json": {
+   "sha256": "bd02b4ce661bd332a1331370a9e07e3f2f5012c1dfbb5a752c412729ce839b5c",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_inject_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_inject_s9.fold10.sealed.json": {
+   "sha256": "ba4e4207a3487ac0e97fe6587b98c5f3ae5356f13505bcb3efc184278c54ce64",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_inject_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_none_s0.fold10.sealed.json": {
+   "sha256": "289b9c42122139cd6dc65123cbba0de0becfdea7358d71285c7c5d298a503ff6",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_none_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_none_s1.fold10.sealed.json": {
+   "sha256": "7ef4c146a566de9fc8979309f517b3468339a6bde1b7e6c2775f89ecd619c454",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_none_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_none_s2.fold10.sealed.json": {
+   "sha256": "a5feb2b32a20e5d0927aa7fd82dcd820dd3f5092b3b2f44b18df9587bab29fcc",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_none_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_none_s3.fold10.sealed.json": {
+   "sha256": "7d2dfbb9b9d65970e8d0b1dd028834b61e12987f8ee4fa5010d485a230cdecf1",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_none_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_none_s4.fold10.sealed.json": {
+   "sha256": "8220efcf88dd7a4ff4867fbd8a60d28abc7939b92764bb50233021722ff8405a",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_none_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_none_s5.fold10.sealed.json": {
+   "sha256": "cd16af45d40604decc8301abc481d29aede7bebf0b5f5edd045fca056795479b",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_none_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_none_s6.fold10.sealed.json": {
+   "sha256": "7284c75fafbda82bed84185939d2963b1c8e1a754645d9c543ad9128d16a83d0",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_none_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_none_s7.fold10.sealed.json": {
+   "sha256": "3c1273ae9c0339ac5b641a2aec0d91f8bad9550b23dffab0104eb4e4e047d5fe",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_none_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_none_s8.fold10.sealed.json": {
+   "sha256": "8a8c5941d9668de972f4421395cc1441daf0e8fba4499f97bd6a8dc7a46b6011",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_none_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_none_s9.fold10.sealed.json": {
+   "sha256": "4a2056a3e3b3a5129ef14aaa5b04b2aad77e176061ea3ba1f27001ce581b9352",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_none_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_scale_s0.fold10.sealed.json": {
+   "sha256": "b2820660c356d5960a48d09f52dcd9d076e9a1b48e974e4243e40dc49df26523",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_scale_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_scale_s1.fold10.sealed.json": {
+   "sha256": "1cb41729058251792160af574aebccaf16170a31a152156d699d163e8735117a",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_scale_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_scale_s2.fold10.sealed.json": {
+   "sha256": "35681e48eaec4538560dfa903f74a47878d9f07cae63b64b0a1b20ce781fa52a",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_scale_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_scale_s3.fold10.sealed.json": {
+   "sha256": "b1c3f582624f084eb8a1ae048188cc767cc5ca7e119192d64413e95ec7f31247",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_scale_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_scale_s4.fold10.sealed.json": {
+   "sha256": "1e6426678cdcac4da579c063033093cc4890c2904ebf67a8ad86a145698b3723",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_scale_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_scale_s5.fold10.sealed.json": {
+   "sha256": "a37daf27496ae5d7be13d886759ffe00c66f1d91115ea9540111e21271b8e24d",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_scale_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_scale_s6.fold10.sealed.json": {
+   "sha256": "a65e63c158fcf4ba2cabc9ddb805244a08fc102a9313774a43923bb7f7a4e34b",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_scale_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_scale_s7.fold10.sealed.json": {
+   "sha256": "128a3d55a7a4de3468dc2cb9c1652cbf1a297a427598ef713b87ee7fae3fd846",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_scale_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_scale_s8.fold10.sealed.json": {
+   "sha256": "e4d493a92c4fc60b36644e1f355942c8b586c7b24dbf4c972d9d1aacb88c043d",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_scale_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_scale_s9.fold10.sealed.json": {
+   "sha256": "426c63d0f63d0a8f8a5bbf1aef90fb88595569a68f30e3e61cbfc705e694bdb2",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_scale_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_signflip_s0.fold10.sealed.json": {
+   "sha256": "faf9e2fd8539ac91d1a5415061c44b2f37c4748000500a3ae27651d1db2aac80",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_signflip_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_signflip_s1.fold10.sealed.json": {
+   "sha256": "6cf93896c8ee383f9b55ec6e25b08243f4c77f6d8e04bd76b554e288d67fc2eb",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_signflip_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_signflip_s2.fold10.sealed.json": {
+   "sha256": "a6763781f5d223526a15969bfa6fd29a834c0a9862c7369323f79cb86c731d2e",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_signflip_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_signflip_s3.fold10.sealed.json": {
+   "sha256": "677ecb3b1cba897ddbc459d1e36d4dc8cef09f696ae8369d2ab57b02e329ee50",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_signflip_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_signflip_s4.fold10.sealed.json": {
+   "sha256": "2fc5911c75e494aeb3d129ed5335bd1518b6753c24c0dc3a951551e422f9a5b7",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_signflip_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_signflip_s5.fold10.sealed.json": {
+   "sha256": "09cc2bd7e23b932ffd24b1a1ff05bbc326ff78d7433fec8fa387131952155ae0",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_signflip_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_signflip_s6.fold10.sealed.json": {
+   "sha256": "00c854b9a1bfb8611cb6056d1bfb7292c0074ba5b865271f8ef36fe2ba3a4f95",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_signflip_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_signflip_s7.fold10.sealed.json": {
+   "sha256": "42e8d89c3f8cc80d74d8bc9cb8314164d945150b2e4fb6addb2a64e5be821afa",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_signflip_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_signflip_s8.fold10.sealed.json": {
+   "sha256": "c5d3875ac5f1d0def186d26fefc3b9fd6a0506ace2884d4a27947f682139dbb1",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_signflip_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_hflmld_native_signflip_s9.fold10.sealed.json": {
+   "sha256": "e11c0379d66b8dca7dc2e16f4d69de27d95666a8ce1735a47be678c9bb28bf23",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_hflmld_native_signflip_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_adaptive_s0.fold10.sealed.json": {
+   "sha256": "383447bac9ddf861a392fb27d0fba7c3e694b8d08d27ddb1446b0e135c23d3e5",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_adaptive_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_adaptive_s1.fold10.sealed.json": {
+   "sha256": "7b9c503f17225ec56a29c2692838345047abf69ea1df3310cbfb13ab55e330a4",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_adaptive_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_adaptive_s2.fold10.sealed.json": {
+   "sha256": "c1190ecf0178306121353ffca4322ef00812a3fc37829b74c14343083ee33a11",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_adaptive_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_adaptive_s3.fold10.sealed.json": {
+   "sha256": "f0055d05efbec9caba2d0f6813a3388eb3147c0c0611e4ae7a70024356ec3c94",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_adaptive_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_adaptive_s4.fold10.sealed.json": {
+   "sha256": "b093e7ffb50d7a4979e2003c25886bd601ef48f5430a516e9ae30dc99f0792bb",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_adaptive_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_adaptive_s5.fold10.sealed.json": {
+   "sha256": "4eb3deb61ae98db340de108a986504259875934eb56df2b776166ca78f51010a",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_adaptive_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_adaptive_s6.fold10.sealed.json": {
+   "sha256": "303b85ae9ceca51edeca788d46fce9250c6be54e558100aaa4e25b0303b93c74",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_adaptive_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_adaptive_s7.fold10.sealed.json": {
+   "sha256": "e36d319c22f742d2ddb2184ea8b8393e0fc4b86ecfbf68764cec2ccdfa0c0eff",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_adaptive_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_adaptive_s8.fold10.sealed.json": {
+   "sha256": "56d2923ad3eb336dd645dd7e273bc2eebaf01b1f666f25143cc68854deab1850",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_adaptive_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_adaptive_s9.fold10.sealed.json": {
+   "sha256": "eba2990284dede9fb414ea68b5974b5d99e54ca4e074a16a1feb89c856fcab4b",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_adaptive_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_drop_s0.fold10.sealed.json": {
+   "sha256": "971469314e65eae191a15d09cead90c392264428ae864e28b581a9d14a23a776",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_drop_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_drop_s1.fold10.sealed.json": {
+   "sha256": "0ddfe5e5c3c80b9012a39bb1a3ae42d2aea296b657b15ed96bcd1b955e951973",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_drop_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_drop_s2.fold10.sealed.json": {
+   "sha256": "b441bd167c1b4800f194e66e82814a806b0c74b9d9ef518a7e0eaa5e25c8c63f",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_drop_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_drop_s3.fold10.sealed.json": {
+   "sha256": "cf18b9458ed5cf506dc1fa87991787fea5cef2e933400d915ae4fa6837b08e30",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_drop_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_drop_s4.fold10.sealed.json": {
+   "sha256": "e02574917487cbe1c5e9d37f310ebe87a3229592646cb1c1d026fd4fc1787420",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_drop_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_drop_s5.fold10.sealed.json": {
+   "sha256": "3745b70b32921f4598d3f9e793687fb7aa249fafaa136a5ab9285ce11b95d08a",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_drop_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_drop_s6.fold10.sealed.json": {
+   "sha256": "50e711f2faa270fc0009af08efedbcb98737574931d7067f8b00812abc823a3d",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_drop_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_drop_s7.fold10.sealed.json": {
+   "sha256": "5ad5e47fbb3f6249ede31144d96ada1c1133b7050100d84bf1635af8a9f20e14",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_drop_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_drop_s8.fold10.sealed.json": {
+   "sha256": "5808f559131410359fcf397168102e631b8313a1300389b34f2c3ab0d646fc35",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_drop_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_drop_s9.fold10.sealed.json": {
+   "sha256": "ec69a8887d0ad7bd2bfe326c9ca9cbd571d587bcfab7b653334142b6097e43d9",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_drop_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_inject_s0.fold10.sealed.json": {
+   "sha256": "abd752537ac0748649f0e5099fe8dbd1ff6841c102c48a0d927d8f8f3730fa03",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_inject_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_inject_s1.fold10.sealed.json": {
+   "sha256": "0fd2c5f5a64b21cbb0de51f05f18372d6b9a8f47dc758f9a83aca529f9e71651",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_inject_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_inject_s2.fold10.sealed.json": {
+   "sha256": "b219434a7ca2d1d42d1292c2aac5c36c341f220ca255f687321e1afbd541581a",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_inject_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_inject_s3.fold10.sealed.json": {
+   "sha256": "c429691d6eb22f17c3ad70bf0f27d7b6a110b34f7d7e1844a712969c7d73746d",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_inject_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_inject_s4.fold10.sealed.json": {
+   "sha256": "8287bea38c5058c8c8bb969a32dd60ee7fef608bb1960fbae2b020cfd67707c7",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_inject_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_inject_s5.fold10.sealed.json": {
+   "sha256": "ab16ce98fa9d2a64b17d1eb3bb8e09a4d3d16c3033377807c3e97ed247a7688a",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_inject_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_inject_s6.fold10.sealed.json": {
+   "sha256": "5b502f396ea48b9e29d60c4fc77ebf460581a31a388ef2d9ed2422c9bcf8eabf",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_inject_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_inject_s7.fold10.sealed.json": {
+   "sha256": "c2e0169f56619e52b89e1f6c99e4e916e7180510a8e9ef8c56860309110f1e9a",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_inject_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_inject_s8.fold10.sealed.json": {
+   "sha256": "e28b5f43e2c4c3bd2444d887087e7af39496d61afd892d9b21fdfe11bd4bc353",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_inject_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_inject_s9.fold10.sealed.json": {
+   "sha256": "f984de3bdbfb45a354225ed657ca5113b471e789d4aefa7a1d2640fc68858ab2",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_inject_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_none_s0.fold10.sealed.json": {
+   "sha256": "f4c4735e558a23612ce1b25c0c63a6fb96c5fcc46265baa2e599140566d7afc5",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_none_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_none_s1.fold10.sealed.json": {
+   "sha256": "51eb3c382f632da9f34211d1af7bd72b0654f95a7fa8a5aca959fb44b48330f6",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_none_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_none_s2.fold10.sealed.json": {
+   "sha256": "c8471e8c69bd8cef3d549c576fe69d240f5b0ea833cb05c8bbfcbeb781872eab",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_none_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_none_s3.fold10.sealed.json": {
+   "sha256": "433f6caba9ab6794f0b17e218acf9ce0fdb507ced398ce523fc267ad1bdf04cc",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_none_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_none_s4.fold10.sealed.json": {
+   "sha256": "8c6ca750cd2c272305f2ed0ea17928a400e4ab026b797898099b1ec09033d1e5",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_none_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_none_s5.fold10.sealed.json": {
+   "sha256": "c893f89eb3bbcd33d129d8c52046618121e26a302bb40934d36833c2c25e26d5",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_none_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_none_s6.fold10.sealed.json": {
+   "sha256": "29e26e7d5ee47d6640500523763bb451b43fde0054175982c54893f5195d1830",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_none_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_none_s7.fold10.sealed.json": {
+   "sha256": "425bde0e4f5c069851eba028000e0be4949a1ec1a58cd9ba808f796ad0b6966f",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_none_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_none_s8.fold10.sealed.json": {
+   "sha256": "a4a678773ade1050dcc30003eb5221c41c96405165a3b1d6ac4200145c0d098a",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_none_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_none_s9.fold10.sealed.json": {
+   "sha256": "b8afc99d81431fc1ee0b1b7bb31bc3ab92126d58a5329f2d8ff9d56f44ce6ecf",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_none_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_scale_s0.fold10.sealed.json": {
+   "sha256": "ba0c863726b98c2016ecc4e319306acf511c0f3b9b4cda08a5a8a4383e84f927",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_scale_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_scale_s1.fold10.sealed.json": {
+   "sha256": "eb05c0d218a57c1685f6239af32858672f025deb970eeea6b4eadc42f54376b8",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_scale_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_scale_s2.fold10.sealed.json": {
+   "sha256": "2890fa70edd6dbe8cb90b0f3ade59dfcd437866dee2047a7da6262e04bee37d1",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_scale_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_scale_s3.fold10.sealed.json": {
+   "sha256": "635ebb3639ef07259cbe67eb56f3b425027d2fdeb3c697f05d8843e50a4fc4e5",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_scale_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_scale_s4.fold10.sealed.json": {
+   "sha256": "cdff009becc331cbb40ccfed32571b1c0ecaa38492b34355e39643cb77d99de0",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_scale_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_scale_s5.fold10.sealed.json": {
+   "sha256": "b719a7cf735182e9203830b1f0e2c47d4c7954d230fee2490b569fe56b2dcd33",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_scale_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_scale_s6.fold10.sealed.json": {
+   "sha256": "97e80114d9632865b8cef322f2a7ca3389e97eeb23ecc25a835c71fc902f31db",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_scale_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_scale_s7.fold10.sealed.json": {
+   "sha256": "db2aec50362633323a28207fd584a1798ae96f0e724a57393b5c463ca3c3f22f",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_scale_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_scale_s8.fold10.sealed.json": {
+   "sha256": "548f5766a23a7b6f772e561bb04b4c778014a89ff4353170c2bfc7c128803c40",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_scale_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_scale_s9.fold10.sealed.json": {
+   "sha256": "e6dd6225207c638ab4c552af83a2a80d761fa4f77cd8ed4cd71e99a83602e0ca",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_scale_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_signflip_s0.fold10.sealed.json": {
+   "sha256": "8e49ab9f7b80deb5bfde7acce1022933653bb285fbcc22cec0e23d3789035b14",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_signflip_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_signflip_s1.fold10.sealed.json": {
+   "sha256": "6b8be86f27d39c52cf500fa7183d41f9a2e2ca4d9d35f3c8d45238ab3e31d89a",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_signflip_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_signflip_s2.fold10.sealed.json": {
+   "sha256": "2b64c3ec07c41eb7c681d5589bedd371f51f825484553643e960801965acf4ee",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_signflip_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_signflip_s3.fold10.sealed.json": {
+   "sha256": "a0f56cd331f58cb43b2c4c4c010174829ea46f93540e7c52cdcb2119ae1eceb5",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_signflip_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_signflip_s4.fold10.sealed.json": {
+   "sha256": "0fff3fee61cdb4e47616dd7c9c727a337f2afba389425c80d148f3b209a5fa19",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_signflip_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_signflip_s5.fold10.sealed.json": {
+   "sha256": "14e58dea78c4f026a32989f84fe4fc250d988dbee9210656dca223b628a2225b",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_signflip_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_signflip_s6.fold10.sealed.json": {
+   "sha256": "a876ea820e3050a7eba9582e1724327667ca408b5122f578ea57d034eadba542",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_signflip_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_signflip_s7.fold10.sealed.json": {
+   "sha256": "1aaa05147573a46382c27158646ab084ee33485c6f9be29026aa77db453db4fe",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_signflip_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_signflip_s8.fold10.sealed.json": {
+   "sha256": "9aa42f2847bd697ebcc5c414fe49512320cd0d23f84dfa3cb7fbb544dafc33a8",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_signflip_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261119_X-9_e5-v2/E5_ours_signflip_s9.fold10.sealed.json": {
+   "sha256": "f7867936629742ad2f17311c53a6145494c424d06f304dfd74e43c8f2d63e9b2",
+   "folder": "JOB_20261119_X-9_e5-v2",
+   "file": "E5_ours_signflip_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  }
+ }
+}

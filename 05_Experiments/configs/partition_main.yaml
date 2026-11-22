@@ -1,0 +1,10 @@
+# Partition of PTB-XL training records (plan task G0-07).
+# Sources: v4:191, PR:55, PR:57, PR:64-65, DL-08, DL-26, DL-29.
+n_gateways: 7               # PR:64
+devices_per_gateway: 30     # PR:64
+alpha_default: 0.5          # PR:65 (main setting)
+alpha_overrides: {}         # E5 mixed gateways: see partition_E5.yaml (PR:65, DL-29c, DL-30)
+min_records_per_device: 10  # DL-29(d)
+max_redraws: 1000           # DL-29(d)
+batch_size: 16              # PR:57; expected batch for the shared q (DL-26)
+rounds: 100                 # PR:55

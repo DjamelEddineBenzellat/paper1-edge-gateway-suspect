@@ -1,0 +1,41 @@
+# E6 norm-run config (DL-43 (12)), written by make_e6_configs.py. Do not edit by hand.
+experiment: E6 norms
+run_id: E6n_pta_k2_s0
+configuration: P-TA
+mode: pta
+seed: 0
+settings:
+  lr: 0.01
+  c_ex: 2.0
+  eps0: 8.0
+  rounds: 100
+  gateway_check: size-aware
+  save_norms: true
+  k: 2
+canaries: true
+fold10: none
+base_config: ../G0a.yaml
+rules:
+- DL-34
+- DL-36
+- DL-37
+- DL-38
+- DL-39
+- DL-41
+- DL-42
+- DL-43
+- DL-44
+code_commit: 6dcc87f9ede1a683a711636d8acca7997fc62d16
+versions:
+  cryptography: 50.0.2
+  flwr: 1.43.0
+  numpy: 2.5.4
+  opacus: 1.6.0
+  scikit-learn: 1.9.1
+  scipy: 1.18.1
+  torch: 2.15.0+cpu
+sources_sha256:
+  05_Experiments/results/G0-14/JOB_20261115_G0-14_grid-dl36/selection_dl36.json: 4dd9312a89837f3ffde8e7eaabf9e94276a7257134baee8133150279825c89a3
+  05_Experiments/results/M2-04/JOB_20261116_M2-04_baseline-grid/selection_baselines.json: e931f9d1c9b05b69d145271b77eb0c97d572b1da0ad27be1225d326a26268f8c
+  selection_dl42.json: 27358fd3dad973df1339d214ea8085bd3a76bd5b567a350fe021910c10a72af8
+  E1_pta_s0.yaml: a2fdc9b70829be871980e28c07ff8e5490b9854026d19a352c6aeae96dda8f95

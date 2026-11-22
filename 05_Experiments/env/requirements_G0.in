@@ -1,0 +1,19 @@
+# Packages for the Paper 1 environment (plan task G0-03).
+# No versions here on purpose: install, then run 04_Code/fl_system/capture_env.py,
+# which writes the exact versions to requirements_G0.txt ("to pin at G0").
+#
+# Created on 12 Nov 2026 at <BASE_DIR>/venvs/paper1 (Python 3.12.3):
+#   python3 -m venv <BASE_DIR>/venvs/paper1
+#   <venv>/bin/python -m pip install --no-cache-dir torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#   <venv>/bin/python -m pip install --no-cache-dir opacus "flwr[simulation]" pandas wfdb scikit-learn pyyaml medmnist
+# To rebuild the exact pinned environment (torch is a CPU build from the PyTorch index):
+#   <venv>/bin/python -m pip install -r requirements_G0.txt --extra-index-url https://download.pytorch.org/whl/cpu
+torch
+opacus
+flwr[simulation]
+numpy
+pandas
+wfdb
+scikit-learn
+pyyaml
+medmnist

@@ -1,0 +1,65 @@
+{
+ "note": "hashes only; no sealed file was read",
+ "seal_register": {
+  "JOB_20261118_DL-42_dl42-tuning-v2/E1tuned_ptgc_s0.fold10.sealed.json": {
+   "sha256": "fbe8c2b726ba13c0ad9710c088401c37cb663e25305a2632c62be22304c80503",
+   "folder": "JOB_20261118_DL-42_dl42-tuning-v2",
+   "file": "E1tuned_ptgc_s0.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261118_DL-42_dl42-tuning-v2/E1tuned_ptgc_s1.fold10.sealed.json": {
+   "sha256": "7ac2ea704fe1778f44a65dec13d43f3d930d728ca8337df5f9ff6f3cb6bcc32c",
+   "folder": "JOB_20261118_DL-42_dl42-tuning-v2",
+   "file": "E1tuned_ptgc_s1.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261118_DL-42_dl42-tuning-v2/E1tuned_ptgc_s2.fold10.sealed.json": {
+   "sha256": "266540996a9785c7f1a38514d678d4abd5cb725810b8fbd2e5929341162e16a2",
+   "folder": "JOB_20261118_DL-42_dl42-tuning-v2",
+   "file": "E1tuned_ptgc_s2.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261118_DL-42_dl42-tuning-v2/E1tuned_ptgc_s3.fold10.sealed.json": {
+   "sha256": "466b95dd5db5dca57c3af1b0e02402776e49d045a764024ba2f7cd9f2b7674bb",
+   "folder": "JOB_20261118_DL-42_dl42-tuning-v2",
+   "file": "E1tuned_ptgc_s3.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261118_DL-42_dl42-tuning-v2/E1tuned_ptgc_s4.fold10.sealed.json": {
+   "sha256": "079c0b48157319fe78cf95f6e14d248e894f777c3ee2243760fd27c99345eb81",
+   "folder": "JOB_20261118_DL-42_dl42-tuning-v2",
+   "file": "E1tuned_ptgc_s4.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261118_DL-42_dl42-tuning-v2/E1tuned_ptgc_s5.fold10.sealed.json": {
+   "sha256": "8f5cad51407490543f3283611c1501ee5567aac18ba0090edbcc7ef6f4ddd74d",
+   "folder": "JOB_20261118_DL-42_dl42-tuning-v2",
+   "file": "E1tuned_ptgc_s5.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261118_DL-42_dl42-tuning-v2/E1tuned_ptgc_s6.fold10.sealed.json": {
+   "sha256": "6ec99830034ffc6f6ae659287d57f854c186c60548e0fa062bfbbd4c054fa79b",
+   "folder": "JOB_20261118_DL-42_dl42-tuning-v2",
+   "file": "E1tuned_ptgc_s6.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261118_DL-42_dl42-tuning-v2/E1tuned_ptgc_s7.fold10.sealed.json": {
+   "sha256": "57fda637aeb550718928de7e881c3c96ab1ee5438b963fc8d8312b55578338e8",
+   "folder": "JOB_20261118_DL-42_dl42-tuning-v2",
+   "file": "E1tuned_ptgc_s7.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261118_DL-42_dl42-tuning-v2/E1tuned_ptgc_s8.fold10.sealed.json": {
+   "sha256": "df21ac143d220ab1af900fb11820e612e760ec636a895e3c00a3ff4b8a555d5e",
+   "folder": "JOB_20261118_DL-42_dl42-tuning-v2",
+   "file": "E1tuned_ptgc_s8.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  },
+  "JOB_20261118_DL-42_dl42-tuning-v2/E1tuned_ptgc_s9.fold10.sealed.json": {
+   "sha256": "4f29faf9cb6e0498ea2b6212936821283f9d638f828c1147a66180a36c6b9ba2",
+   "folder": "JOB_20261118_DL-42_dl42-tuning-v2",
+   "file": "E1tuned_ptgc_s9.fold10.sealed.json",
+   "matches_workstation_manifest": true
+  }
+ }
+}

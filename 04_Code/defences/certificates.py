@@ -12,6 +12,11 @@ Standard signatures: Ed25519 from the pinned `cryptography` package (requirement
   refuses: it sends nothing.
 - t = k: a group sum exists only if all k members sent; otherwise the group aborts, with no
   retry (D1). The cloud sees the aborts and tracks the abort rate (PR §3 item 23).
+- Device limit (DL-52, 25 Nov 2026, after all runs of Paper 1): each device keeps its own memory
+  (DeviceLimit). It accepts a signed round only once and only in increasing order, trains at most
+  per_round times on it (1; T_e in P-PE, whose later edge models are not signed), and stops after
+  max_trainings device rounds, the number that the accountant assumes. The signatures alone do not
+  bound the budget: device_check without a limit accepts the same valid certificate again and again.
 Simulation note: keys are derived from the run seed, so runs are reproducible. A real
 deployment generates them randomly on each party. No global random state is used.
 """
@@ -81,11 +86,44 @@ class Cloud:
                            "groups": [[int(d) for d in g] for g in groups] if groups is not None else None})
 
 
-def device_check(round_cert, cloud_public_hex, rnd, model_vec, gateway, device, group=None, device_certs=None):
+class DeviceLimit:
+    """One device's own memory of its training (DL-52). It bounds the privacy budget whatever the gateway does:
+    the device trains at most max_trainings times in total, and the accountant's epsilon is for that number."""
+
+    def __init__(self, max_trainings, per_round=1, last_round=0, left=0, used=0):
+        self.max_trainings, self.per_round = int(max_trainings), int(per_round)  # fixed at enrollment
+        self.last_round, self.left, self.used = int(last_round), int(left), int(used)
+
+    def open_round(self, rnd):
+        """Accept a signed round, once and in increasing order. Returns (ok, reason)."""
+        if int(rnd) <= self.last_round:
+            return False, "round already accepted (replay)"
+        if self.used >= self.max_trainings:
+            return False, "training limit reached"
+        self.last_round, self.left = int(rnd), self.per_round
+        return True, "ok"
+
+    def may_train(self):
+        return self.left > 0 and self.used < self.max_trainings
+
+    def spend(self):
+        """Count one local training (S DP-SGD steps) before it starts; False = the device refuses."""
+        if not self.may_train():
+            return False
+        self.left, self.used = self.left - 1, self.used + 1
+        return True
+
+    def state(self):
+        return [self.last_round, self.left, self.used]
+
+
+def device_check(round_cert, cloud_public_hex, rnd, model_vec, gateway, device, group=None, device_certs=None,
+                 limit=None):
     """What one device checks before it trains. Returns (ok, reason).
 
     group: the members the device is asked to run secure aggregation with (P-TA, P-FR), or None.
     device_certs: {device id: device certificate} of those members.
+    limit: the device's DeviceLimit (DL-52), asked last, so that a refused round uses nothing of it; None = no limit.
     """
     if not _verify(cloud_public_hex, round_cert["payload"].encode(), round_cert["sig"]):
         return False, "round certificate: bad cloud signature"
@@ -95,7 +133,7 @@ def device_check(round_cert, cloud_public_hex, rnd, model_vec, gateway, device, 
     if body["model_sha256"] != model_sha256(model_vec):
         return False, "model differs from the signed model"
     if group is None:
-        return True, "ok"
+        return limit.open_round(rnd) if limit is not None else (True, "ok")
     members = sorted(int(d) for d in group)
     if body["groups"] is None or members not in [sorted(g) for g in body["groups"]] or int(device) not in members:
         return False, "group is not certified"
@@ -105,7 +143,7 @@ def device_check(round_cert, cloud_public_hex, rnd, model_vec, gateway, device, 
             return False, f"member {m}: no valid device certificate (Sybil?)"
         if json.loads(cert["payload"])["device"] != m:
             return False, f"member {m}: certificate is for another device"
-    return True, "ok"
+    return limit.open_round(rnd) if limit is not None else (True, "ok")
 
 
 def complete_groups(groups, sent):

@@ -1,8 +1,7 @@
 # Treating the Edge Gateway as a Suspect — code and analysis plan
 
 Code, run configurations, frozen analysis plan with its deviation log, and summary results for the paper
-*Treating the Edge Gateway as a Suspect: Accuracy, Robustness and Traffic of Privacy-Defence Placements in
-Device–Gateway–Cloud Federated ECG Learning* (to be submitted to the IEEE Internet of Things Journal).
+*Treating the Edge Gateway as a Suspect: Defence Placement in Federated ECG Learning* (to be submitted to the IEEE Internet of Things Journal).
 
 The study compares five placements of privacy and poisoning defences (P-TG, P-TG-c, P-PE, P-FR, P-TA) and four
 baselines in device–gateway–cloud federated learning on the PTB-XL electrocardiograms, with patient-level DP-SGD on
@@ -15,10 +14,11 @@ the devices.
 | `04_Code/fl_system/` | Simulation (Flower, Opacus), placements, metrics, config makers, the scripts that open the sealed test folds, figure and number scripts |
 | `04_Code/defences/`, `04_Code/attacks/` | DP-SGD, secure-aggregation simulation, certificates, aggregation rules, HFLMLD; device attacks and gateway tampering |
 | `04_Code/workstation/` | The job packages used to run the experiments on the GPU workstation |
-| `04_Code/tests/` | Unit tests (126) |
+| `04_Code/tests/` | Unit tests (134) |
 | `05_Experiments/configs/` | One YAML file per run (see below) and the partition settings |
 | `05_Experiments/env/` | Pinned versions (`requirements_G0.txt`), the dataset version and SHA-256 fingerprints, the environments used |
-| `05_Experiments/preregistration_v4_FROZEN.md` | The frozen analysis plan (11 Nov 2026) with its full **deviation log** (DL-01 to DL-49) |
+| `05_Experiments/preregistration_v4_FROZEN.md` | The frozen analysis plan (11 Nov 2026) with its full **deviation log** (DL-01 to DL-52) |
+| `04_Code/defences/certificates.py` | Signed model, certified groups and the **device limit** (DL-52), which was added after all runs of the paper; honest rounds give the same outputs with and without it (unit tests) |
 | `05_Experiments/hflmld_differences.md` | How P-PE implements HFLMLD: choices and departures |
 | `05_Experiments/results/` | Summary results: the test-fold analyses of E1, DL-42, E4, E5 and E6; the seal registers (SHA-256 of every sealed test-fold file); the numbers of the paper's Section V and Appendix C |
 | `RELEASE_SOURCE.txt` | The project commit this release was built from |
@@ -48,7 +48,7 @@ Attribution 4.0). Check the files against the SHA-256 fingerprints in `05_Experi
 cd 04_Code/tests
 python -m unittest discover -p "test_*.py"
 ```
-126 tests; one is skipped unless `PTBXL_DIR` points to the PTB-XL folder.
+134 tests; one is skipped unless `PTBXL_DIR` points to the PTB-XL folder.
 
 ## Run one experiment
 One run = one config file:
@@ -56,8 +56,9 @@ One run = one config file:
 python 04_Code/fl_system/run_experiment.py --config 05_Experiments/configs/E1/E1_pta_s0.yaml \
     --ptbxl-dir <PTB-XL folder> --out-dir <results folder> [--device cuda]
 ```
-The test-fold scores of each run go to a separate sealed file; each experiment's sealed files were opened once, by
-the `*_fold10.py` scripts, after a register of their SHA-256 hashes had been committed.
+The test-fold scores of each run go to a separate sealed file; each experiment's sealed files were first opened
+by the `*_fold10.py` scripts, after a register of their SHA-256 hashes had been committed; later reads are recorded in
+DL-51 of the plan.
 
 | Config folder | Runs | Experiment |
 |---|---|---|
@@ -76,7 +77,7 @@ the `*_fold10.py` scripts, after a register of their SHA-256 hashes had been com
 - Figure 5, Section V and Appendix C (`paper_figures.py --ptbxl-dir …`, `section5_numbers.py`, `appendix_threshold05.py`) also need the PTB-XL data and the per-run or sealed result files, which are not in this release; their outputs are included in `05_Experiments/results/X-11/`.
 
 ## Licence
-No licence has been chosen yet. Until a `LICENSE` file is added, all rights are reserved.
+MIT (see `LICENSE`).
 
 ## Citation
 The paper's reference will be added after publication.

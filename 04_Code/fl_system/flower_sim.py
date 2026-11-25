@@ -20,6 +20,17 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DEFENCES = os.path.abspath(os.path.join(HERE, "..", "defences"))
 
 
+def _device_limits(context, cfg, devices):
+    """DL-52: each device's memory (last round, trainings left in it, trainings used), from the node state. The
+    limits are the planned number of device rounds and T_e. The simulation takes them from the run config that all
+    nodes share; a deployment fixes them on the device at enrollment."""
+    from certificates import DeviceLimit
+    saved = json.loads(context.state["device_limits"]["json"]) if "device_limits" in context.state else {}
+    per_round = cfg.get("edge_iterations", 1)
+    return {int(d): DeviceLimit(cfg["rounds"] * per_round, per_round, *saved.get(str(d), (0, 0, 0)))
+            for d in devices}
+
+
 def _client_train(msg, context):
     """Runs inside a Ray worker: one gateway's work for one round."""
     import torch
@@ -40,8 +51,12 @@ def _client_train(msg, context):
     auth = None
     if auth_all:  # M2-02: this gateway's round certificate and the device certificates
         auth = {"cloud_pub": auth_all["cloud_pub"], "cert": auth_all["certs"][str(gateway)],
-                "device_certs": {int(d): c for d, c in auth_all["device_certs"].items()}}
+                "device_certs": {int(d): c for d, c in auth_all["device_certs"].items()},
+                "limits": _device_limits(context, cfg, data.gateway_devices[gateway])}
     vec, stats = gateway_round(cfg["mode"], trainer, data, gateway, rnd, cfg, global_vec, groups, auth)
+    if auth:  # DL-52: the devices' own memory, kept on the node between rounds
+        context.state["device_limits"] = ConfigRecord({"json": json.dumps(
+            {str(d): x.state() for d, x in auth["limits"].items()})})
     reply = RecordDict({"arrays": ArrayRecord(numpy_ndarrays=vec if isinstance(vec, list) else [vec]),
                         "config": ConfigRecord({"stats": json.dumps(stats)})})
     return Message(content=reply, reply_to=msg)

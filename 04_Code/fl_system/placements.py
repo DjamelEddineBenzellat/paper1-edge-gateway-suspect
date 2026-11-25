@@ -48,20 +48,29 @@ def _canary_scores(trainer, data, gateway, start_vec, observed):
 
 def accepting_devices(data, gateway, rnd, global_vec, groups=None, auth=None):
     """M2-02: the devices that accept this round after their certificate checks, the refusals
-    {device: reason}, and the check time. Without auth (unit tests, baselines) every device accepts."""
+    {device: reason}, and the check time. Without auth (unit tests, baselines) every device accepts.
+    auth["limits"] (DL-52): {device: DeviceLimit}; a signed round that a device already accepted is refused."""
     devices = data.gateway_devices[gateway]
     if not auth:
         return list(devices), {}, 0.0
     from certificates import device_check
     t0 = time.perf_counter()
-    refused = {}
+    refused, limits = {}, auth.get("limits") or {}
     for d in devices:
         group = next((g for g in groups if d in g), None) if groups is not None else None
         ok, reason = device_check(auth["cert"], auth["cloud_pub"], rnd, global_vec, gateway, d,
-                                  group if groups is not None else None, auth.get("device_certs"))
+                                  group if groups is not None else None, auth.get("device_certs"),
+                                  limits.get(int(d)))
         if not ok or (groups is not None and group is None):
             refused[int(d)] = reason if not ok else "not in any group"
     return [d for d in devices if int(d) not in refused], refused, time.perf_counter() - t0
+
+
+def training_devices(auth, devices):
+    """DL-52: the devices that start one local training now. Each device counts it in its own DeviceLimit and
+    refuses when its limit is reached. Without limits (unit tests, baselines) every device trains."""
+    limits = (auth or {}).get("limits") or {}
+    return [d for d in devices if int(d) not in limits or limits[int(d)].spend()]
 
 
 def pta_gateway(trainer, data, gateway, rnd, cfg, global_vec, groups, auth=None):
@@ -70,7 +79,7 @@ def pta_gateway(trainer, data, gateway, rnd, cfg, global_vec, groups, auth=None)
     from certificates import complete_groups
     accepted, refused, check_s = accepting_devices(data, gateway, rnd, global_vec, groups, auth)
     t0 = time.perf_counter()
-    vectors = {d: _dp_update(trainer, data, d, rnd, cfg, global_vec) for d in accepted}
+    vectors = {d: _dp_update(trainer, data, d, rnd, cfg, global_vec) for d in training_devices(auth, accepted)}
     t1 = time.perf_counter()
     complete, aborted = complete_groups(groups, vectors)
     sums, dev_norms = group_sums(vectors, complete, cfg.get("clip_C"), cfg.get("quantize", False))
@@ -102,6 +111,7 @@ def ptgc_gateway(trainer, data, gateway, rnd, cfg, global_vec, auth=None):
     from device_attacks import is_malicious, malicious_update
     accepted, refused, check_s = accepting_devices(data, gateway, rnd, global_vec, None, auth)
     t0 = time.perf_counter()
+    accepted = training_devices(auth, accepted)
     malicious = [d for d in accepted if is_malicious(cfg, d)]
     honest = [d for d in accepted if d not in malicious]
     pooled = np.concatenate([data.device_rows[d] for d in honest])
@@ -230,6 +240,7 @@ def ptg_gateway(trainer, data, gateway, rnd, cfg, global_vec, auth=None):
     """P-TG: devices run DP-SGD; the trusted gateway takes the coordinate-wise median of the plaintext updates."""
     accepted, refused, check_s = accepting_devices(data, gateway, rnd, global_vec, None, auth)
     t0 = time.perf_counter()
+    accepted = training_devices(auth, accepted)
     vectors = [_dp_update(trainer, data, d, rnd, cfg, global_vec) for d in accepted]
     t1 = time.perf_counter()
     med = median_lower_upper_mean(torch.stack(vectors)) if vectors else torch.zeros(trainer.n_params)
@@ -248,7 +259,7 @@ def pfr_gateway(trainer, data, gateway, rnd, cfg, global_vec, groups, auth=None)
     from certificates import complete_groups
     accepted, refused, check_s = accepting_devices(data, gateway, rnd, global_vec, groups, auth)
     t0 = time.perf_counter()
-    vectors = {d: _dp_update(trainer, data, d, rnd, cfg, global_vec) for d in accepted}
+    vectors = {d: _dp_update(trainer, data, d, rnd, cfg, global_vec) for d in training_devices(auth, accepted)}
     t1 = time.perf_counter()
     complete, aborted = complete_groups(groups, vectors)
     sums, dev_norms = group_sums(vectors, complete, cfg.get("clip_C"), cfg.get("quantize", False))
@@ -264,7 +275,9 @@ def ppe_gateway(trainer, data, gateway, rnd, cfg, global_vec, auth=None):
     """P-PE (HFLMLD edge): T_e edge iterations; in each, devices run DP-SGD from the edge model, the edge
     detects with min-max + PCA + K-means and suspicion scores, and averages the admitted client models.
     The devices check the cloud-signed global model once per cloud round; the edge models of edge
-    iterations 2..T_e come from the gateway and are not signed (HFLMLD trusts its edge for this)."""
+    iterations 2..T_e come from the gateway and are not signed (HFLMLD trusts its edge for this). With the
+    device limit (DL-52) a device trains at most T_e times per signed round, whatever the gateway asks; the
+    simulation stops the edge iterations when a device refuses."""
     from hflmld import admitted, edge_detect, update_suspicion
     accepted, refused, check_s = accepting_devices(data, gateway, rnd, global_vec, None, auth)
     t0 = time.perf_counter()
@@ -274,6 +287,8 @@ def ppe_gateway(trainer, data, gateway, rnd, cfg, global_vec, auth=None):
     log, train_s, canary_gw = [], 0.0, {}
     for te in range(cfg["edge_iterations"]):
         dr = _device_round(rnd, cfg, te)
+        if not devices or len(training_devices(auth, devices)) < len(devices):
+            break
         t1 = time.perf_counter()
         models = np.stack([edge + _dp_update(trainer, data, d, dr, cfg, edge).cpu().numpy() for d in devices])
         train_s += time.perf_counter() - t1

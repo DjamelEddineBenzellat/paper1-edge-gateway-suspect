@@ -1,2 +1,2 @@
-Built by make_code_release.py from project commit 95e0a75.
-848 files; personal paths and names replaced in 6 files.
+Built by make_code_release.py from project commit 2cc7d78.
+850 files; personal paths and names replaced in 6 files.

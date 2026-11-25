@@ -23,8 +23,8 @@ from aggregation import (gateway_check, gateway_median, group_sums, median_lower
 from dpsgd import Trainer  # noqa: E402
 from metrics import diagnostic_scores, macro_f1_at, scores, trivial_macro_f1, tuned_thresholds  # noqa: E402
 from model import ECG_PARAMETERS, ecg_cnn, n_parameters  # noqa: E402
-from placements import (cloud_pfr, cloud_weighted, draw_groups, hierfavg_gateway, pfr_gateway,  # noqa: E402
-                        ppe_gateway, pta_gateway, ptg_gateway, ptgc_gateway)
+from placements import (cloud_pfr, cloud_weighted, draw_groups, gateway_round, hierfavg_gateway,  # noqa: E402
+                        pfr_gateway, ppe_gateway, pta_gateway, ptg_gateway, ptgc_gateway)
 import certificates  # noqa: E402
 import hflmld  # noqa: E402
 
@@ -286,6 +286,114 @@ class TestCertificatesM202(unittest.TestCase):
     def test_t_equals_k_aborts_any_incomplete_group(self):
         complete, aborted = certificates.complete_groups(self.groups, sent=[0, 1, 2, 3, 4])
         self.assertEqual((complete, aborted), ([[0, 1, 2]], [[3, 4, 5]]))
+
+
+class TestDeviceLimitDL52(unittest.TestCase):
+    """DL-52: a device's own memory bounds its training, whatever the gateway asks; honest rounds do not change."""
+
+    def setUp(self):
+        torch.manual_seed(0)
+        self.tr = Trainer(tiny_model, "cpu")
+        self.w0 = self.tr.get_vector().clone().numpy()
+        self.data = TwoGatewayData()
+        self.devices = self.data.gateway_devices[0]
+        self.cloud = certificates.Cloud(seed=3)
+        self.dcerts = {d: self.cloud.enroll(d, certificates.device_public_hex(3, d)) for d in range(30)}
+        self.trainings = 0
+        plain = self.tr.dp_sgd
+
+        def counted(*args, **kw):
+            self.trainings += 1
+            return plain(*args, **kw)
+        self.tr.dp_sgd = counted
+
+    def cfg(self, te=1):
+        return {"q": 0.5, "steps": 2, "z": 0.5, "c_ex": 1.0, "lr": 0.1, "seed": 3, "batch": 4, "edge_iterations": te,
+                "k": 3, "clip_C": 5.0, "quantize": True, "tau": None}
+
+    def limits(self, max_trainings=100, per_round=1):
+        return {d: certificates.DeviceLimit(max_trainings, per_round) for d in self.devices}
+
+    def run_round(self, mode, rnd, limits, te=1, model=None, dcerts=None):
+        groups = draw_groups(3, rnd, 0, self.devices, 3) if mode in ("pta", "pfr") else None
+        auth = {"cloud_pub": self.cloud.public_hex, "device_certs": dcerts or self.dcerts, "limits": limits,
+                "cert": self.cloud.sign_round(rnd, self.w0 if model is None else model, 0, groups)}
+        self.trainings = 0
+        return gateway_round(mode, self.tr, self.data, 0, rnd, self.cfg(te), self.w0, groups, auth)
+
+    def test_signed_round_is_accepted_once_and_in_order(self):
+        lim = certificates.DeviceLimit(100)
+        cert = {r: self.cloud.sign_round(r, self.w0, 0) for r in (7, 8)}
+
+        def check(r):
+            return certificates.device_check(cert[r], self.cloud.public_hex, r, self.w0, 0, 1, limit=lim)
+        self.assertEqual(check(7), (True, "ok"))
+        self.assertEqual(check(7), (False, "round already accepted (replay)"))  # the same round again
+        self.assertEqual(check(8), (True, "ok"))
+        self.assertEqual(check(7), (False, "round already accepted (replay)"))  # old round, model and certificate
+
+    def test_refused_round_uses_nothing_of_the_limit(self):
+        lim = certificates.DeviceLimit(100)
+        cert = self.cloud.sign_round(7, self.w0, 0)
+        self.assertFalse(certificates.device_check(cert, self.cloud.public_hex, 7, self.w0 + 1, 0, 1, limit=lim)[0])
+        self.assertEqual(lim.state(), [0, 0, 0])
+        self.assertTrue(certificates.device_check(cert, self.cloud.public_hex, 7, self.w0, 0, 1, limit=lim)[0])
+
+    def test_repeated_round_trains_nothing(self):
+        for mode in ("pta", "pfr", "ptg"):
+            limits = self.limits()
+            self.run_round(mode, 1, limits)
+            self.assertEqual(self.trainings, len(self.devices), mode)
+            stats = self.run_round(mode, 1, limits)[1]
+            self.assertEqual((self.trainings, len(stats["refused"])), (0, len(self.devices)), mode)
+
+    def test_total_limit_stops_the_device(self):
+        limits = self.limits(max_trainings=3)
+        done = []
+        for rnd in range(1, 7):
+            self.run_round("ptg", rnd, limits)
+            done.append(self.trainings)
+        self.assertEqual(done, [len(self.devices)] * 3 + [0] * 3)
+
+    def test_ppe_gateway_cannot_ask_more_edge_iterations(self):
+        limits = self.limits(max_trainings=20, per_round=5)
+        per_round = []
+        for rnd in range(1, 7):
+            self.run_round("ppe", rnd, limits, te=100)  # a gateway that asks 100 instead of 5
+            per_round.append(self.trainings // len(self.devices))
+        self.assertEqual(per_round, [5, 5, 5, 5, 0, 0])
+
+    def test_after_an_abort_no_device_trains_twice_in_the_same_round(self):
+        limits, dcerts = self.limits(), dict(self.dcerts)
+        victim = draw_groups(3, 1, 0, self.devices, 3)[0][0]
+        dcerts[victim] = certificates.Cloud(seed=99).enroll(victim, "00" * 32)
+        self.assertEqual(self.run_round("pta", 1, limits, dcerts=dcerts)[1]["aborted_groups"], 1)
+        before = self.trainings
+        self.run_round("pta", 1, limits)  # the same round again, without the Sybil: only the 3 that never trained
+        self.assertEqual((before, self.trainings), (len(self.devices) - 3, 3))
+        self.assertEqual({x.used for x in limits.values()}, {1})
+
+    def test_honest_rounds_are_identical_with_and_without_the_limit(self):
+        for mode, te in (("pta", 1), ("pfr", 1), ("ptg", 1), ("ptgc", 1), ("ppe", 5)):
+            limits = self.limits(max_trainings=3 * te, per_round=te)
+            for rnd in (1, 2, 3):
+                a, b = self.run_round(mode, rnd, None, te)[0], self.run_round(mode, rnd, limits, te)[0]
+                self.assertTrue(np.array_equal(np.asarray(a), np.asarray(b)), (mode, rnd))
+            self.assertEqual({x.used for x in limits.values()}, {3 * te}, mode)
+
+    def test_memory_is_kept_between_rounds(self):
+        import flower_sim
+
+        class Context:
+            state = {}
+        cfg = {"rounds": 20, "edge_iterations": 5}
+        lim = flower_sim._device_limits(Context, cfg, [4])[4]
+        self.assertEqual((lim.max_trainings, lim.per_round, lim.state()), (100, 5, [0, 0, 0]))
+        lim.open_round(1), lim.spend()
+        Context.state = {"device_limits": {"json": json.dumps({"4": lim.state()})}}
+        again = flower_sim._device_limits(Context, cfg, [4])[4]
+        self.assertEqual(again.state(), [1, 4, 1])
+        self.assertFalse(again.open_round(1)[0])
 
 
 class TestProtocolInPlacementsM202(unittest.TestCase):
